@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <Box display="flex" justifyContent="center" height="100vh">
-      <Box width="50%" position="relative" top="40%">
+      <Box width="50%">
         <Outlet />
       </Box>
     </Box>

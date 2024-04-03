@@ -60,21 +60,27 @@ const SearchBox = () => {
     if (search !== "") {
       console.log(`${isAcademic ? "Academic" : "Web"}` + " Search", search);
 
-      axios
-        .post("https://api.gyanibooks.com/search_publication/", {
-          keyword: search,
-          limit: 10,
-        })
-        .then((res) => {
-          console.log("App -> useEffect ", res.data);
-          const resSuggestions = res.data?.map((obj) => obj.title);
-          setSuggestions([...resSuggestions]);
-        })
-        .catch((err) => {
-          console.error(err);
-        });
+      // axios
+      //   .post("https://api.gyanibooks.com/search_publication/", {
+      //     keyword: search,
+      //     limit: 10,
+      //   })
+      //   .then((res) => {
+      //     console.log("App -> useEffect ", res.data);
+      //     const resSuggestions = res.data?.map((obj) => obj.title);
+      //     setSuggestions([...resSuggestions]);
+      //   })
+      //   .catch((err) => {
+      //     console.error(err);
+      //   });
 
-      navigate("/results");
+      console.log("App -> useEffect ", res.data);
+      const resSuggestions = data.filter((article) =>
+        article.title.includes(debouncedSearch)
+      );
+      setSuggestions([...resSuggestions]);
+
+      navigate("/results", { state: { search: search, isAcademic } });
     }
   };
 
@@ -84,7 +90,8 @@ const SearchBox = () => {
 
   const handleSuggestionClick = (suggestion) => {
     console.log("hsc");
-    <Navigate to={"/results"} state={suggestion} />;
+    // <Navigate to={"/results"} state={suggestion} />;
+    navigate("/results", { state: { search: suggestion, isAcademic } });
   };
 
   return (
@@ -95,7 +102,7 @@ const SearchBox = () => {
       }}
     >
       <TextField
-        placeholder="Enter your question"
+        placeholder="Search"
         variant="outlined"
         value={search}
         onChange={handleSearchChange}
@@ -151,8 +158,6 @@ const SearchBox = () => {
               alignItems="flex-start"
               key={article.paperId}
               onClick={() => {
-                console.log(article.title);
-                setSearch(article.title);
                 setShowSuggestions(false);
                 handleSuggestionClick(article.title);
               }}
