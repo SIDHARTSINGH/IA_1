@@ -1,5 +1,1969 @@
 export const data = [
   {
+    paperId: "c0a737a5f1bcc70c368991c9daec41056894337e",
+    url: "https://www.semanticscholar.org/paper/c0a737a5f1bcc70c368991c9daec41056894337e",
+    title: "Climate Change 2021 – The Physical Science Basis",
+    abstract:
+      "The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.",
+    citationCount: 6530,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/84D59430721AC15204CEAFA4F3902A42/stamped-9781009157889pre1_i-ii.pdf/frontmatter.pdf",
+      status: "BRONZE",
+    },
+    journal: null,
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{Change2023ClimateC2,\n author = {Intergovernmental Panel on Climate Change},\n title = {Climate Change 2021 – The Physical Science Basis},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2191493435",
+        name: "Intergovernmental Panel on Climate Change",
+      },
+    ],
+  },
+  {
+    paperId: "2f609099c16f84861bb18bdedf784d13d9610cc1",
+    url: "https://www.semanticscholar.org/paper/2f609099c16f84861bb18bdedf784d13d9610cc1",
+    title: "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+    abstract:
+      "The Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the scientific literature relevant to climate change impacts, adaptation and vulnerability. The report recognizes the interactions of climate, ecosystems and biodiversity, and human societies, and integrates across the natural, ecological, social and economic sciences. It emphasizes how efforts in adaptation and in reducing greenhouse gas emissions can come together in a process called climate resilient development, which enables a liveable future for biodiversity and humankind. The IPCC is the leading body for assessing climate change science. IPCC reports are produced in comprehensive, objective and transparent ways, ensuring they reflect the full range of views in the scientific literature. Novel elements include focused topical assessments, and an atlas presenting observed climate change impacts and future risks from global to regional scales. Available as Open Access on Cambridge Core.",
+    citationCount: 2953,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ED03547F55DC52E331FE751F53C8709F/stamped-9781009325837pre1_i-ii.pdf/frontmatter.pdf",
+      status: "BRONZE",
+    },
+    journal: null,
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{Holsman2023ClimateC2,\n author = {Dr. Kirstin K. Holsman},\n title = {Climate Change 2022 – Impacts, Adaptation and Vulnerability},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2233104413",
+        name: "Dr. Kirstin K. Holsman",
+      },
+    ],
+  },
+  {
+    paperId: "dff0d73eb636ded4a4b5ada5dc9fa1139e27f296",
+    url: "https://www.semanticscholar.org/paper/dff0d73eb636ded4a4b5ada5dc9fa1139e27f296",
+    title:
+      "WorldClim 2: new 1‐km spatial resolution climate surfaces for global land areas",
+    abstract:
+      "We created a new dataset of spatially interpolated monthly climate data for global land areas at a very high spatial resolution (approximately 1 km2). We included monthly temperature (minimum, maximum and average), precipitation, solar radiation, vapour pressure and wind speed, aggregated across a target temporal range of 1970–2000, using data from between 9000 and 60 000 weather stations. Weather station data were interpolated using thin‐plate splines with covariates including elevation, distance to the coast and three satellite‐derived covariates: maximum and minimum land surface temperature as well as cloud cover, obtained with the MODIS satellite platform. Interpolation was done for 23 regions of varying size depending on station density. Satellite data improved prediction accuracy for temperature variables 5–15% (0.07–0.17 °C), particularly for areas with a low station density, although prediction error remained high in such regions for all climate variables. Contributions of satellite covariates were mostly negligible for the other variables, although their importance varied by region. In contrast to the common approach to use a single model formulation for the entire world, we constructed the final product by selecting the best performing model for each region and variable. Global cross‐validation correlations were ≥ 0.99 for temperature and humidity, 0.86 for precipitation and 0.76 for wind speed. The fact that most of our climate surface estimates were only marginally improved by use of satellite covariates highlights the importance having a dense, high‐quality network of climate station data.",
+    citationCount: 8631,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "International Journal of Climatology",
+      volume: "37",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Fick2017WorldClim2N,\n author = {S. Fick and R. Hijmans},\n journal = {International Journal of Climatology},\n title = {WorldClim 2: new 1‐km spatial resolution climate surfaces for global land areas},\n volume = {37},\n year = {2017}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "32217461",
+        name: "S. Fick",
+      },
+      {
+        authorId: "2130462",
+        name: "R. Hijmans",
+      },
+    ],
+  },
+  {
+    paperId: "d5ab152a21eff7560fae68710c082da76ac86f23",
+    url: "https://www.semanticscholar.org/paper/d5ab152a21eff7560fae68710c082da76ac86f23",
+    title: "Climate Change 2014 - Synthesis Report",
+    abstract:
+      "The Synthesis Report (SYR) distils and integrates the findings of the three Working Group contributions to the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC), the most comprehensive assessment of climate change undertaken thus far by the IPCC: Climate Change 2013: The Physical Science Basis; Climate Change 2014: Impacts, Adaptation, and Vulnerability; and Climate Change 2014: Mitigation of Climate Change. The SYR also incorporates the findings of two Special Reports on Renewable Energy Sources and Climate Change Mitigation (2011) and on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (2011).",
+    citationCount: 4517,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf",
+      status: "BRONZE",
+    },
+    journal: {
+      name: "",
+      volume: "",
+    },
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{Strihou2015ClimateC2,\n author = {Jean-Pascal van Ypersele de Strihou},\n title = {Climate Change 2014 - Synthesis Report},\n year = {2015}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "92605164",
+        name: "Jean-Pascal van Ypersele de Strihou",
+      },
+    ],
+  },
+  {
+    paperId: "7e23c4d4fc42f668bb3ed4a8067b42ee1b140ffd",
+    url: "https://www.semanticscholar.org/paper/7e23c4d4fc42f668bb3ed4a8067b42ee1b140ffd",
+    title: "The Ocean and Cryosphere in a Changing Climate",
+    abstract:
+      "IPCC Special the Ocean and Cryosphere in a Changing third Special Report on This IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC), is the third Special Report to be produced in the Intergovernmental Panel on Climate Change’s (IPCC) Sixth Assessment Report (AR6) cycle. Its ﬁndings reinforce those of the two earlier Special Reports, the IPCC Special Report on Global Warming of 1.5ºC and the IPCC Special Report on Climate Change and Land. The report was jointly prepared by Working Groups I and II, with the Working Group II Technical Support Unit leading the operational production. It was prepared following IPCC principles and procedures. This Special Report builds upon the IPCC’s Fifth Assessment Report (AR5) in 2013– 2014 and on relevant research published in the scientiﬁc, technical and socio-economic literature. The report sits alongside other related reports from other UN Bodies, including Intergovernmental Science Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services.",
+    citationCount: 1508,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A05E6C9F8638FA7CE1748DE2EB7B491B/9781009157971AR.pdf/The_Ocean_and_Cryosphere_in_a_Changing_Climate.pdf?event-type=FTLA",
+      status: "BRONZE",
+    },
+    journal: null,
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{Pörtner2022TheOA,\n author = {H. Pörtner and D. Roberts and M. Tignor and E. Poloczanska and K. Mintenbeck and M. Nicolai and A. Okem and J. Petzold and Bardhyl Rama and N. Weyer},\n title = {The Ocean and Cryosphere in a Changing Climate},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "144881762",
+        name: "H. Pörtner",
+      },
+      {
+        authorId: "78292535",
+        name: "D. Roberts",
+      },
+      {
+        authorId: "50857890",
+        name: "M. Tignor",
+      },
+      {
+        authorId: "5173497",
+        name: "E. Poloczanska",
+      },
+      {
+        authorId: "3621568",
+        name: "K. Mintenbeck",
+      },
+      {
+        authorId: "134444105",
+        name: "M. Nicolai",
+      },
+      {
+        authorId: "69006183",
+        name: "A. Okem",
+      },
+      {
+        authorId: "34941073",
+        name: "J. Petzold",
+      },
+      {
+        authorId: "2229144058",
+        name: "Bardhyl Rama",
+      },
+      {
+        authorId: "1486103249",
+        name: "N. Weyer",
+      },
+    ],
+  },
+  {
+    paperId: "31954535fcfb4a15dab7e7118bc4f312b7066336",
+    url: "https://www.semanticscholar.org/paper/31954535fcfb4a15dab7e7118bc4f312b7066336",
+    title:
+      "Ecological Niche Models Reveal Climate Change Effect on Biogeographical Regions: The Iberian Peninsula as a Case Study",
+    abstract:
+      "How species are distributed on Earth depends largely on climate factors. Whenever these environmental conditions change, species tend to shift their distributions to reach more favourable conditions. Distinct sets of species similarly distributed (i.e., chorotypes) occur in biogeographical regions with homogeneous environmental conditions. Here, we analysed whether biogeographical regions are unstable over time (from the past to the future). We modelled the realised niche of amphibians and reptiles in the Iberian Peninsula in the present, and several past and future climate scenarios. Then, we used Jaccard’s index and the unweighted pair group method (UPGMA) to define the biogeographical regions. Our results suggest that the biogeographical regions of Iberian amphibians and reptiles changed greatly over time, due to the climatic changes between periods. Biogeographical regions composed of species with Atlantic affinities changed particularly, overall gaining suitable areas in past colder periods and losing suitable areas in warmer periods. The areas of refugia for amphibians over time corresponded to the most humid regions (north-west of the peninsula), while the most important areas for reptiles occur in the south and on the Atlantic coast. The identification of biogeographical patterns considering past climate changes is essential to better apply conservation measures.",
+    citationCount: 14,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.mdpi.com/2225-1154/8/3/42/pdf?version=1585304576",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Climate",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Sousa-Guedes2020EcologicalNM,\n author = {D. Sousa-Guedes and Salvador Arenas‐Castro and N. Sillero},\n booktitle = {Climate},\n journal = {Climate},\n title = {Ecological Niche Models Reveal Climate Change Effect on Biogeographical Regions: The Iberian Peninsula as a Case Study},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "1499296987",
+        name: "D. Sousa-Guedes",
+      },
+      {
+        authorId: "1403596026",
+        name: "Salvador Arenas‐Castro",
+      },
+      {
+        authorId: "1898834",
+        name: "N. Sillero",
+      },
+    ],
+  },
+  {
+    paperId: "8da8c6bb902d185441d31f1cc3e27f27b0f028d4",
+    url: "https://www.semanticscholar.org/paper/8da8c6bb902d185441d31f1cc3e27f27b0f028d4",
+    title: "Review on climate change and its effect on wildlife and ecosystem",
+    abstract:
+      "Long-term variations in the abiotic factors such as temperature, rainfall, snow, and wind pattern are referred to as climatic changes (IPCC 2007a). Climate changes create new challenges for humans and wildlife, most common are cloudbursts, dry spells, increasing sea level, thawing permafrost, salinization, increased wildfi res, reduced agricultural yields, water diminish, health problems due to high temperature in cities, and ablation (WWF). Climate change affects individual species and their habitat which alter the structure and function of the ecosystem and services that the natural system provided to society (Diazz, et al. 2019) Most often the climate change is limited but sometimes it spreads commonly and causes the disturbance in food chains, nutrient fl ow, and atmospheric circulation in other regions. Solar energy plays important role in all biological activities. It sustains most of the biomass and supports primary production. It keeps the earth's biological tolerable level. In discussing the effect of climate changes on wildlife it is noted that some species have not been much affected by these changes, while some others go to distinct. In tropical regions, there is great biodiversity because of two main phenomena: phylogenetic niche conservatism and ecological productivity. These two factors play signifi cant roles but accumulating theoretical and experimental studies recommend that the single most important factor is kinetics: the temperature dependency of ecological and evolutionary rates. The relatively high temperatures in the tropics generate and sustain high diversity because ‘the Red Queen runs faster when she is hot’ [1].",
+    citationCount: 17,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.peertechzpublications.com/articles/OJEB-6-121.pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Open Journal of Environmental Biology",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Quratulann2021ReviewOC,\n author = {Sattar Quratulann and Maqbool Muhammad Ehsan and Ehsan Rabia and A. Sana},\n booktitle = {Open Journal of Environmental Biology},\n journal = {Open Journal of Environmental Biology},\n title = {Review on climate change and its effect on wildlife and ecosystem},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2128815319",
+        name: "Sattar Quratulann",
+      },
+      {
+        authorId: "2128811761",
+        name: "Maqbool Muhammad Ehsan",
+      },
+      {
+        authorId: "2128811786",
+        name: "Ehsan Rabia",
+      },
+      {
+        authorId: "2079449557",
+        name: "A. Sana",
+      },
+    ],
+  },
+  {
+    paperId: "fccadb9d22f7d3644be99df74f36bb3668da3e8d",
+    url: "https://www.semanticscholar.org/paper/fccadb9d22f7d3644be99df74f36bb3668da3e8d",
+    title:
+      "Climate change penalty and benefit on surface ozone: a global perspective based on CMIP6 earth system models",
+    abstract:
+      "This work presents an analysis of the effect of climate change on surface ozone discussing the related penalties and benefits around the globe from the global modelling perspective based on simulations with five CMIP6 (Coupled Model Intercomparison Project Phase 6) Earth System Models. As part of AerChemMIP (Aerosol Chemistry Model Intercomparison Project) all models conducted simulation experiments considering future climate (ssp370SST) and present-day climate (ssp370pdSST) under the same future emissions trajectory (SSP3-7.0). A multi-model global average climate change benefit on surface ozone of −0.96 ± 0.07 ppbv °C−1 is calculated which is mainly linked to the dominating role of enhanced ozone destruction with higher water vapour abundances under a warmer climate. Over regions remote from pollution sources, there is a robust decline in mean surface ozone concentration on an annual basis as well as for boreal winter and summer varying spatially from −0.2 to −2 ppbv °C−1, with strongest decline over tropical oceanic regions. The implication is that over regions remote from pollution sources (except over the Arctic) there is a consistent climate change benefit for baseline ozone due to global warming. However, ozone increases over regions close to anthropogenic pollution sources or close to enhanced natural biogenic volatile organic compounds emission sources with a rate ranging regionally from 0.2 to 2 ppbv C−1, implying a regional surface ozone penalty due to global warming. Overall, the future climate change enhances the efficiency of precursor emissions to generate surface ozone in polluted regions and thus the magnitude of this effect depends on the regional emission changes considered in this study within the SSP3_7.0 scenario. The comparison of the climate change impact effect on surface ozone versus the combined effect of climate and emission changes indicates the dominant role of precursor emission changes in projecting surface ozone concentrations under future climate change scenarios.",
+    citationCount: 28,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "Environmental Research Letters",
+      volume: "17",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Zanis2022ClimateCP,\n author = {P. Zanis and D. Akritidis and S. Turnock and V. Naik and S. Szopa and A. Georgoulias and S. Bauer and M. Deushi and L. Horowitz and J. Keeble and Philipp Le Sager and F. O’Connor and N. Oshima and K. Tsigaridis and T. van Noije},\n booktitle = {Environmental Research Letters},\n journal = {Environmental Research Letters},\n title = {Climate change penalty and benefit on surface ozone: a global perspective based on CMIP6 earth system models},\n volume = {17},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "5945521",
+        name: "P. Zanis",
+      },
+      {
+        authorId: "93418324",
+        name: "D. Akritidis",
+      },
+      {
+        authorId: "93304847",
+        name: "S. Turnock",
+      },
+      {
+        authorId: "3438547",
+        name: "V. Naik",
+      },
+      {
+        authorId: "4495007",
+        name: "S. Szopa",
+      },
+      {
+        authorId: "2960913",
+        name: "A. Georgoulias",
+      },
+      {
+        authorId: "50672522",
+        name: "S. Bauer",
+      },
+      {
+        authorId: "3933323",
+        name: "M. Deushi",
+      },
+      {
+        authorId: "5194830",
+        name: "L. Horowitz",
+      },
+      {
+        authorId: "16287364",
+        name: "J. Keeble",
+      },
+      {
+        authorId: "1688671060",
+        name: "Philipp Le Sager",
+      },
+      {
+        authorId: "80472353",
+        name: "F. O’Connor",
+      },
+      {
+        authorId: "28399972",
+        name: "N. Oshima",
+      },
+      {
+        authorId: "2093891211",
+        name: "K. Tsigaridis",
+      },
+      {
+        authorId: "4718738",
+        name: "T. van Noije",
+      },
+    ],
+  },
+  {
+    paperId: "6d5b3d1cb9267dfb4aacafb80f1c21ac39441327",
+    url: "https://www.semanticscholar.org/paper/6d5b3d1cb9267dfb4aacafb80f1c21ac39441327",
+    title: "Mineral dust aerosol impacts on global climate and climate change",
+    abstract: null,
+    citationCount: 69,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://eartharxiv.org/repository/object/3577/download/10043/",
+      status: "GREEN",
+    },
+    journal: {
+      name: "Nature Reviews Earth & Environment",
+      pages: "71 - 86",
+      volume: "4",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Kok2023MineralDA,\n author = {J. Kok and T. Storelvmo and V. Karydis and A. Adebiyi and N. Mahowald and A. Evan and C. He and Danny M. Leung},\n booktitle = {Nature Reviews Earth & Environment},\n journal = {Nature Reviews Earth & Environment},\n pages = {71 - 86},\n title = {Mineral dust aerosol impacts on global climate and climate change},\n volume = {4},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2226153180",
+        name: "J. Kok",
+      },
+      {
+        authorId: "5418633",
+        name: "T. Storelvmo",
+      },
+      {
+        authorId: "41130992",
+        name: "V. Karydis",
+      },
+      {
+        authorId: "145216803",
+        name: "A. Adebiyi",
+      },
+      {
+        authorId: "3769463",
+        name: "N. Mahowald",
+      },
+      {
+        authorId: "5643179",
+        name: "A. Evan",
+      },
+      {
+        authorId: "2140209960",
+        name: "C. He",
+      },
+      {
+        authorId: "2048690732",
+        name: "Danny M. Leung",
+      },
+    ],
+  },
+  {
+    paperId: "0b9de66a975f14bbf00eee54935846d4add3bdb5",
+    url: "https://www.semanticscholar.org/paper/0b9de66a975f14bbf00eee54935846d4add3bdb5",
+    title:
+      "Effect of Climate Change using Predictive Models with Remote Sensing Data",
+    abstract:
+      "Human-induced climate change is causing unpredictable changes around the world to global economies and people’s way of living. We present a study undertaken on the prediction of three parameters that quantify climatic change, namely Land Surface Temperature, Carbon Monoxide, and Precipitation. Since the three parameters are essentially non stationary in nature, the differencing method has been looked at to fine-tune the output of the prediction models. The two seasonal autoregressive models chosen for the study are Seasonal Auto Regressive Integrated Moving Average (SARIMA) and TBATS, due to non-stationarity of the data. The focus is to predict climate change using predictive models for Indian sub-continent. Region-wise dataset was extracted from Google earth engine using a reducer function. A comparison of the forecasting models using root mean square error and mean absolute scaled error suggests that SARIMA performs better in the case of Land Surface Temperature and Precipitation whereas TBATS performs better for Carbon Monoxide Concentration.",
+    citationCount: 2,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "2023 19th IEEE International Colloquium on Signal Processing & Its Applications (CSPA)",
+      pages: "201-206",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Bhumika2023EffectOC,\n author = {M. S. Bhumika and Niyam Momaya and R. Nandan and K. Suhas and Shikha Tripathi},\n booktitle = {International Colloquium on Signal Processing and Its Applications},\n journal = {2023 19th IEEE International Colloquium on Signal Processing & Its Applications (CSPA)},\n pages = {201-206},\n title = {Effect of Climate Change using Predictive Models with Remote Sensing Data},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2213578938",
+        name: "M. S. Bhumika",
+      },
+      {
+        authorId: "2213578821",
+        name: "Niyam Momaya",
+      },
+      {
+        authorId: "69013007",
+        name: "R. Nandan",
+      },
+      {
+        authorId: "2213502314",
+        name: "K. Suhas",
+      },
+      {
+        authorId: "2213453813",
+        name: "Shikha Tripathi",
+      },
+    ],
+  },
+  {
+    paperId: "d38c0d831406c92ec42448e3239421e49aea8a35",
+    url: "https://www.semanticscholar.org/paper/d38c0d831406c92ec42448e3239421e49aea8a35",
+    title: "The effect of climate change on the lifestyle of polar bears",
+    abstract:
+      "Climate change is now the biggest concern in the Arctic and is causing unpredictable changes to the sea ice, making the life of polar bears (Ursus maritimus) more difficult. Although polar bears respond and adapt to all the changes in the environment actively and quickly, climate change still brings them some negative impacts. Historically, the earth has experienced many eras when the climate goes up and down. However, rising in temperature has been happening at a marked rate, 0.32°F per decade, while 2021 ranks as the sixth-warmest year. The consequences of global warming led to an earlier winter break-up and ice melting; those cause polar bears to lose their habitats and have less praying time. The populations of seals, which are their primary food resource, are also affected by the unusual climate. As a result, some of the polar bears are forced to turn their target from the ice into the shores and even human territories. The loss of ice also led to a further distance between pieces of ice, which forced polar bears to swim for a longer distance for migrating. Moreover, without enough energy being stored, pregnancy then becomes a hard task for female polar bears. Therefore, the size of litter has been declined while the health conditions of adult polar bears also went down. Although actions have been taken both nationally and internationally to prevent polar bears from going extinct and stop climate change, little achievement was made.",
+    citationCount: 0,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      pages: "126110H - 126110H-5",
+      volume: "12611",
+    },
+    citationStyles: {
+      bibtex:
+        "@Conference{Liu2023TheEO,\n author = {Che Liu},\n booktitle = {International Conference on Biological Engineering and Medical Science},\n pages = {126110H - 126110H-5},\n title = {The effect of climate change on the lifestyle of polar bears},\n volume = {12611},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2293347414",
+        name: "Che Liu",
+      },
+    ],
+  },
+  {
+    paperId: "039b96ac02dbf6150ef9b802cce6432dbc380a43",
+    url: "https://www.semanticscholar.org/paper/039b96ac02dbf6150ef9b802cce6432dbc380a43",
+    title:
+      "Performance Based Evaluation of Carbonation Resistance of Concrete According to Various Curing Conditions from Climate Change Effect",
+    abstract: null,
+    citationCount: 15,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "International Journal of Concrete Structures and Materials",
+      pages: "687-700",
+      volume: "11",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Kim2017PerformanceBE,\n author = {Tae kyun Kim and S. Choi and J. Kim and Y. Chu and E. Yu},\n journal = {International Journal of Concrete Structures and Materials},\n pages = {687-700},\n title = {Performance Based Evaluation of Carbonation Resistance of Concrete According to Various Curing Conditions from Climate Change Effect},\n volume = {11},\n year = {2017}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "46760147",
+        name: "Tae kyun Kim",
+      },
+      {
+        authorId: "117172336",
+        name: "S. Choi",
+      },
+      {
+        authorId: "1590792769",
+        name: "J. Kim",
+      },
+      {
+        authorId: "2070015318",
+        name: "Y. Chu",
+      },
+      {
+        authorId: "29773245",
+        name: "E. Yu",
+      },
+    ],
+  },
+  {
+    paperId: "7e1cf15514e02fa84365c3023ab5adaac61a9af4",
+    url: "https://www.semanticscholar.org/paper/7e1cf15514e02fa84365c3023ab5adaac61a9af4",
+    title:
+      "The fate of Lake Baikal: how climate change may alter deep ventilation in the largest lake on Earth",
+    abstract: null,
+    citationCount: 21,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://link.springer.com/content/pdf/10.1007/s10584-018-2275-2.pdf",
+      status: "HYBRID",
+    },
+    journal: {
+      name: "Climatic Change",
+      pages: "181-194",
+      volume: "150",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Piccolroaz2018TheFO,\n author = {S. Piccolroaz and M. Toffolon},\n booktitle = {Climatic Change},\n journal = {Climatic Change},\n pages = {181-194},\n title = {The fate of Lake Baikal: how climate change may alter deep ventilation in the largest lake on Earth},\n volume = {150},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "51888037",
+        name: "S. Piccolroaz",
+      },
+      {
+        authorId: "11716873",
+        name: "M. Toffolon",
+      },
+    ],
+  },
+  {
+    paperId: "c398f546f15c781fdb72c6c9db25a27fc3567ac8",
+    url: "https://www.semanticscholar.org/paper/c398f546f15c781fdb72c6c9db25a27fc3567ac8",
+    title:
+      "Resource Letter GECC-1: The Greenhouse Effect and Climate Change: Earth's Natural Greenhouse Effect",
+    abstract:
+      "Earth's greenhouse effect is manifested as the difference between thermal infrared radiation emitted at the Earth surface and that emitted to space at the top of the atmosphere. This difference, which is due mainly to absorption and downward emission of radiant energy by atmospheric trace gases, results in global mean surface temperature about 32 K greater than what it would otherwise be for the same planetary absorption of solar radiation, and is thus of enormous importance to Earth's climate. This Resource Letter introduces the physics of the greenhouse effect and more broadly of Earth's climate system and provides resources for further study. A companion Resource Letter (GECC-2), planned for the following issue, examines the increase in the greenhouse effect due to human activities over the past 200 years and its consequences for Earth's climate system.",
+    citationCount: 13,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "American Journal of Physics",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Schwartz2018ResourceLG,\n author = {S. Schwartz},\n booktitle = {American Journal of Physics},\n journal = {American Journal of Physics},\n title = {Resource Letter GECC-1: The Greenhouse Effect and Climate Change: Earth's Natural Greenhouse Effect},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "84334417",
+        name: "S. Schwartz",
+      },
+    ],
+  },
+  {
+    paperId: "5985922eda5cfd3dca11132e2caf2a9358d1ee83",
+    url: "https://www.semanticscholar.org/paper/5985922eda5cfd3dca11132e2caf2a9358d1ee83",
+    title:
+      "Estimated effect of the permafrost carbon feedback on the zero emissions commitment to climate change",
+    abstract:
+      "Abstract. Zero Emissions Commitment (ZEC), the expected change in global temperature following the cessation of CO2 emissions has recently been assessed by the Zero Emissions Commitment Model Intercomparison Project (ZECMIP). ZECMIP concluded that the component of ZEC from CO2 emissions will likely be close to zero in the decades following the cessation of emissions. However, of the 18 Earth system models that participated in ZECMIP only two included a representation of the permafrost carbon feedback to climate change. To better assess the potential impact of permafrost carbon decay on ZEC a series of perturbed parameter experiments are here conducted with an Earth system model of intermediate complexity. The experiment suggest that the permafrost carbon cycle feedback will directly add 0.06 [0.02 to 0.14] °C to the benchmark ZEC value assesses 50 years after 1000 PgC of CO2 has been emitted to the atmosphere. An additional 0.04 [0 to 0.06] °C is likely to been added relative to the benchmark ZEC value from the thaw-lag effect unaccounted for in the ZECMIP experiment design. Overall we assess that the permafrost carbon feedback is unlikely to change the assessment that ZEC is close to zero on decadal timescales, however the feedback is expected to become more important over the coming centuries.\n",
+    citationCount: 13,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "Biogeosciences",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{MacDougall2021EstimatedEO,\n author = {A. MacDougall},\n booktitle = {Biogeosciences},\n journal = {Biogeosciences},\n title = {Estimated effect of the permafrost carbon feedback on the zero emissions commitment to climate change},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "24046822",
+        name: "A. MacDougall",
+      },
+    ],
+  },
+  {
+    paperId: "460d572f0d49f91f54e5dd65bbfe152f028ac085",
+    url: "https://www.semanticscholar.org/paper/460d572f0d49f91f54e5dd65bbfe152f028ac085",
+    title:
+      "Examining Students’ Thoughts on Climate Change in the Context of Basic Concept",
+    abstract:
+      'In this study, our aim was to investigate the beliefs of middle school students about climate change. We conducted study with 183 secondary school students. Within the scope of the study, students were asked two questions about climate change, and written responses were analyzed using an embedded a mixed-method approach. The questions posed were: (1) What is the cause of global warming? (2) What factors influence the climate? Based on the results of the quantitative analysis of the participants\' responses, the answers to the first question were "human," "greenhouse effect," and "Earth." The concepts of "pollution," "atmosphere," and "Earth" are used in the second question. As per the qualitative analysis results, the students\' responses focused on three elements: "living things, Earth, and atmosphere." The students responses to the second question reveal a more specific or general attitude. The findings indicate that students view climate change not merely as an isolated phenomenon but as a complex system influenced by various components. It is also suggested that students have an understanding of the distinction between weather and climate. The ability to connect climate change with social issues may encourage individuals to make greater efforts in mitigating its effects.',
+    citationCount: 1,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "Research on Education and Psychology",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Doğru2023ExaminingST,\n author = {Said Doğru and Fatih Yüzbaşioğlu},\n booktitle = {Research on education and psychology},\n journal = {Research on Education and Psychology},\n title = {Examining Students’ Thoughts on Climate Change in the Context of Basic Concept},\n year = {2023}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2253694467",
+        name: "Said Doğru",
+      },
+      {
+        authorId: "2083962015",
+        name: "Fatih Yüzbaşioğlu",
+      },
+    ],
+  },
+  {
+    paperId: "50e553c3e9820b7079a73968d02c230b8796e2fb",
+    url: "https://www.semanticscholar.org/paper/50e553c3e9820b7079a73968d02c230b8796e2fb",
+    title:
+      "Impact of climate change on river water temperature and dissolved oxygen: Indian riverine thermal regimes",
+    abstract: null,
+    citationCount: 20,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.nature.com/articles/s41598-022-12996-7.pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Scientific Reports",
+      volume: "12",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Rajesh2022ImpactOC,\n author = {M. Rajesh and S. Rehana},\n booktitle = {Scientific Reports},\n journal = {Scientific Reports},\n title = {Impact of climate change on river water temperature and dissolved oxygen: Indian riverine thermal regimes},\n volume = {12},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2129694403",
+        name: "M. Rajesh",
+      },
+      {
+        authorId: "2231551",
+        name: "S. Rehana",
+      },
+    ],
+  },
+  {
+    paperId: "3f14254bec49f138a8af57d44a8c4346531ddade",
+    url: "https://www.semanticscholar.org/paper/3f14254bec49f138a8af57d44a8c4346531ddade",
+    title:
+      "Managing Risks of Climate Change on Irrigation Water in Arid Regions",
+    abstract: null,
+    citationCount: 13,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://link.springer.com/content/pdf/10.1007/s11269-022-03267-1.pdf",
+      status: "HYBRID",
+    },
+    journal: {
+      name: "Water Resources Management",
+      pages: "2429-2446",
+      volume: "37",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Elnashar2022ManagingRO,\n author = {Walaa Elnashar and A. Elyamany},\n booktitle = {Water resources management},\n journal = {Water Resources Management},\n pages = {2429-2446},\n title = {Managing Risks of Climate Change on Irrigation Water in Arid Regions},\n volume = {37},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2179918520",
+        name: "Walaa Elnashar",
+      },
+      {
+        authorId: "96351502",
+        name: "A. Elyamany",
+      },
+    ],
+  },
+  {
+    paperId: "6459eb89397f2784d0f59127162a1ad13d90e492",
+    url: "https://www.semanticscholar.org/paper/6459eb89397f2784d0f59127162a1ad13d90e492",
+    title:
+      "Effect of climate change and urbanisation on flood protection decision‐making",
+    abstract:
+      "The changing climate and the rapid urbanisation may alter flood severity and influence the decision‐making process for flood management. In this study, a Multi‐Criteria Decision Analysis (MCDA) framework for optimal decision‐making in flood protection is developed and applied to a central flood‐prone basin of Jakarta, Indonesia. Specifically, the decisions are on levees corresponding to protection under different rainfall return periods (RP), considering climate change and associated uncertainties, urbanisation, and evolving socio‐economic features of the flood plain. Three cases were studied to analyse future (year 2050) conditions (i) future rainfall/current urban, (ii) current rainfall/future urban and (iii) future rainfall/future urban. Future climate change projections from the NASA Earth Exchange are used to obtain information about changes in rainfall, whereas Landsat derived imperviousness maps along with the population projections are used for future urban conditions. Annual Expected Loss, Graduality, upgrade Construction cost and Net‐Socio‐Economic Vulnerability Index are the criteria used in the MCDA. It is found that climate change has a higher impact compared to urbanisation on the flood protection decisions. For the basin studied, the extreme future case of increased rainfall and urbanised conditions have the optimal decision in levee protection level corresponding to 250 years RP under current rainfall which corresponds to ~60 years RP under future rainfall.",
+    citationCount: 17,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfr3.12681",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Journal of Flood Risk Management",
+      volume: "14",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Daksiya2020EffectOC,\n author = {Velautham Daksiya and P. Mandapaka and E. Lo},\n booktitle = {Journal of Flood Risk Management},\n journal = {Journal of Flood Risk Management},\n title = {Effect of climate change and urbanisation on flood protection decision‐making},\n volume = {14},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "107730171",
+        name: "Velautham Daksiya",
+      },
+      {
+        authorId: "70155986",
+        name: "P. Mandapaka",
+      },
+      {
+        authorId: "6552605",
+        name: "E. Lo",
+      },
+    ],
+  },
+  {
+    paperId: "d21ad37c53ba6ce93b6f281561534d460ad0fc28",
+    url: "https://www.semanticscholar.org/paper/d21ad37c53ba6ce93b6f281561534d460ad0fc28",
+    title: "Effect of climate change on cash crops yield in Pakistan",
+    abstract: null,
+    citationCount: 17,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Arabian Journal of Geosciences",
+      pages: "1-15",
+      volume: "13",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Akbar2020EffectOC,\n author = {Haseeb Akbar and S. Gheewala},\n booktitle = {Arabian Journal of Geosciences},\n journal = {Arabian Journal of Geosciences},\n pages = {1-15},\n title = {Effect of climate change on cash crops yield in Pakistan},\n volume = {13},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "150119795",
+        name: "Haseeb Akbar",
+      },
+      {
+        authorId: "5348980",
+        name: "S. Gheewala",
+      },
+    ],
+  },
+  {
+    paperId: "50584abcfd3a98b33bc32a304e5654c4058e1c37",
+    url: "https://www.semanticscholar.org/paper/50584abcfd3a98b33bc32a304e5654c4058e1c37",
+    title:
+      "Fractional Order on the Impact of Climate Change With Dominant Earth’s Fluctuations",
+    abstract:
+      "Abstract In this investigation, fractional order model on the impact of climate change with dominant Earth’s fluctuations is given. The solution of the modelwas obtained using modified LaplaceAdomian decomposition method. The result is compared with the result obtained from integer solution.We observed that what is seen in the fractional part takes longer to be seen in the integer part.We also observed that regardless of any choice we make to mitigate climate change, the impact will still persist due to the effect of Earth’s fluctuations.",
+    citationCount: 8,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.degruyter.com/downloadpdf/journals/mcwf/5/1/article-p1.pdf",
+      status: "BRONZE",
+    },
+    journal: {
+      name: "Mathematics of Climate and Weather Forecasting",
+      pages: "1 - 11",
+      volume: "5",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Eze2019FractionalOO,\n author = {S. Eze and M. Oyesanya},\n booktitle = {Mathematics of Climate and Weather Forecasting},\n journal = {Mathematics of Climate and Weather Forecasting},\n pages = {1 - 11},\n title = {Fractional Order on the Impact of Climate Change With Dominant Earth’s Fluctuations},\n volume = {5},\n year = {2019}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "87797643",
+        name: "S. Eze",
+      },
+      {
+        authorId: "93611818",
+        name: "M. Oyesanya",
+      },
+    ],
+  },
+  {
+    paperId: "08e80723d7808705e9c9ad2073631786663a69b8",
+    url: "https://www.semanticscholar.org/paper/08e80723d7808705e9c9ad2073631786663a69b8",
+    title: "Impact of climate change by 2030 - indian perspective",
+    abstract:
+      "This paper aims to establish the effect of Green House Gases (GHGs) emissions on climate change. Greenhouse gas molecules formed due to anthropogenic activities absorb infrared radiations from the sun, and these molecules re-emit the radiations in all directions, causing temperature rise of the Earth's surface. Due to anthropogenic activities in the country, GHG emissions of GHGs are increasing. The motor vehicles running in the Indian cities with the fossil fuels like gasoline, diesel, etc., are emitting Carbon-di-oxide (CO2), Hydrocarbon (HCs), Nitrogen oxides (NOx) and water vapor as greenhouse gases in the form of vehicular exhausts. These emissions are responsible for deteriorating ambient air quality of the cities like Delhi, National Capital Region (NCR), Mumbai, Kolkata, Bangalore, Hyderabad, etc. This paper outlines the necessary technologies and practices to mitigate GHG emissions of GHGs. The paper also discusses some of the strategies for reducing emissions of GHGs to minimize the effect of global warming and climate change. The impacts of implementing energy efficiency and conservation measures, the role of renewable energy, and hydrogen blends in the vehicular fuel Compressed Natural Gas (CNG) are also described in this paper. The emission performance of a passenger car suitable for bi-fuel combustion with 18 Hydrogen Compressed Natural Gas (18HCNG) has been compared with neat CNG fuel. The economic analysis with these two vehicular fuels in respect of reducing CO2 and NOx being greenhouse gases, has also been discussed in this paper.",
+    citationCount: 0,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "i-manager’s Journal on Future Engineering and Technology",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Yadav2022ImpactOC,\n author = {H. Yadav},\n booktitle = {i-manager's Journal on Future Engineering and Technology},\n journal = {i-manager’s Journal on Future Engineering and Technology},\n title = {Impact of climate change by 2030 - indian perspective},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "1997009301",
+        name: "H. Yadav",
+      },
+    ],
+  },
+  {
+    paperId: "ca360cb9955794e7fea2f1a538d20629671f8902",
+    url: "https://www.semanticscholar.org/paper/ca360cb9955794e7fea2f1a538d20629671f8902",
+    title: "Multidimensional analysis of global climate change: a review",
+    abstract: null,
+    citationCount: 43,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Environmental Science and Pollution Research",
+      pages: "24872 - 24888",
+      volume: "28",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Bandh2021MultidimensionalAO,\n author = {Suhaib A. Bandh and Sana Shafi and M. Peerzada and T. Rehman and S. Bashir and S. A. Wani and R. Dar},\n booktitle = {Environmental science and pollution research international},\n journal = {Environmental Science and Pollution Research},\n pages = {24872 - 24888},\n title = {Multidimensional analysis of global climate change: a review},\n volume = {28},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "4628651",
+        name: "Suhaib A. Bandh",
+      },
+      {
+        authorId: "6169134",
+        name: "Sana Shafi",
+      },
+      {
+        authorId: "2058190433",
+        name: "M. Peerzada",
+      },
+      {
+        authorId: "80756172",
+        name: "T. Rehman",
+      },
+      {
+        authorId: "91000600",
+        name: "S. Bashir",
+      },
+      {
+        authorId: "2058191183",
+        name: "S. A. Wani",
+      },
+      {
+        authorId: "31208183",
+        name: "R. Dar",
+      },
+    ],
+  },
+  {
+    paperId: "979dbfc4a9f71bb6382162275bef21eb68bf2b6b",
+    url: "https://www.semanticscholar.org/paper/979dbfc4a9f71bb6382162275bef21eb68bf2b6b",
+    title:
+      "Geoinformation Technologies in Support of Environmental Hazards Monitoring under Climate Change: An Extensive Review",
+    abstract:
+      "Human activities and climate change constitute the contemporary catalyst for natural processes and their impacts, i.e., geo-environmental hazards. Globally, natural catastrophic phenomena and hazards, such as drought, soil erosion, quantitative and qualitative degradation of groundwater, frost, flooding, sea level rise, etc., are intensified by anthropogenic factors. Thus, they present rapid increase in intensity, frequency of occurrence, spatial density, and significant spread of the areas of occurrence. The impact of these phenomena is devastating to human life and to global economies, private holdings, infrastructure, etc., while in a wider context it has a very negative effect on the social, environmental, and economic status of the affected region. Geospatial technologies including Geographic Information Systems, Remote Sensing—Earth Observation as well as related spatial data analysis tools, models, databases, contribute nowadays significantly in predicting, preventing, researching, addressing, rehabilitating, and managing these phenomena and their effects. This review attempts to mark the most devastating geo-hazards from the view of environmental monitoring, covering the state of the art in the use of geospatial technologies in that respect. It also defines the main challenge of this new era which is nothing more than the fictitious exploitation of the information produced by the environmental monitoring so that the necessary policies are taken in the direction of a sustainable future. The review highlights the potential and increasing added value of geographic information as a means to support environmental monitoring in the face of climate change. The growth in geographic information seems to be rapidly accelerated due to the technological and scientific developments that will continue with exponential progress in the years to come. Nonetheless, as it is also highlighted in this review continuous monitoring of the environment is subject to an interdisciplinary approach and contains an amount of actions that cover both the development of natural phenomena and their catastrophic effects mostly due to climate change.",
+    citationCount: 23,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.mdpi.com/2220-9964/10/2/94/pdf?version=1614235663",
+      status: "GOLD",
+    },
+    journal: {
+      name: "ISPRS Int. J. Geo Inf.",
+      pages: "94",
+      volume: "10",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Tsatsaris2021GeoinformationTI,\n author = {A. Tsatsaris and K. Kalogeropoulos and N. Stathopoulos and Panagiota Louka and K. Tsanakas and D. Tsesmelis and Vassilios Krassanakis and G. Petropoulos and Vasilis Pappas and C. Chalkias},\n booktitle = {ISPRS Int. J. Geo Inf.},\n journal = {ISPRS Int. J. Geo Inf.},\n pages = {94},\n title = {Geoinformation Technologies in Support of Environmental Hazards Monitoring under Climate Change: An Extensive Review},\n volume = {10},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "8462092",
+        name: "A. Tsatsaris",
+      },
+      {
+        authorId: "6750834",
+        name: "K. Kalogeropoulos",
+      },
+      {
+        authorId: "144143914",
+        name: "N. Stathopoulos",
+      },
+      {
+        authorId: "47331177",
+        name: "Panagiota Louka",
+      },
+      {
+        authorId: "104564888",
+        name: "K. Tsanakas",
+      },
+      {
+        authorId: "97920147",
+        name: "D. Tsesmelis",
+      },
+      {
+        authorId: "3163032",
+        name: "Vassilios Krassanakis",
+      },
+      {
+        authorId: "47140590",
+        name: "G. Petropoulos",
+      },
+      {
+        authorId: "34106130",
+        name: "Vasilis Pappas",
+      },
+      {
+        authorId: "1933973",
+        name: "C. Chalkias",
+      },
+    ],
+  },
+  {
+    paperId: "31882cacf80b3ee6278482ada862ad660835228f",
+    url: "https://www.semanticscholar.org/paper/31882cacf80b3ee6278482ada862ad660835228f",
+    title:
+      "Solar geoengineering can alleviate climate change pressures on crop yields",
+    abstract: null,
+    citationCount: 21,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Nature Food",
+      pages: "373 - 381",
+      volume: "2",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Fan2021SolarGC,\n author = {Yuanchao Fan and J. Tjiputra and H. Muri and D. Lombardozzi and Chang‐Eui Park and Shengjun Wu and David Keith},\n booktitle = {Nature Food},\n journal = {Nature Food},\n pages = {373 - 381},\n title = {Solar geoengineering can alleviate climate change pressures on crop yields},\n volume = {2},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "11314961",
+        name: "Yuanchao Fan",
+      },
+      {
+        authorId: "72129670",
+        name: "J. Tjiputra",
+      },
+      {
+        authorId: "12432499",
+        name: "H. Muri",
+      },
+      {
+        authorId: "5267857",
+        name: "D. Lombardozzi",
+      },
+      {
+        authorId: "51143755",
+        name: "Chang‐Eui Park",
+      },
+      {
+        authorId: "50425488",
+        name: "Shengjun Wu",
+      },
+      {
+        authorId: "2054980123",
+        name: "David Keith",
+      },
+    ],
+  },
+  {
+    paperId: "fc3e5accc11e3606855b95f55e6510e3cc4620aa",
+    url: "https://www.semanticscholar.org/paper/fc3e5accc11e3606855b95f55e6510e3cc4620aa",
+    title:
+      "Effect of Global Climate Change on Land Surface Temperature over Dubai, United Arab Emirates with the Aid of Landsat 8 Satellite Imagery",
+    abstract:
+      "Global Atmospheric Analysis is based upon varies remote sensing techniques. One of the key factors for this kind of survey is Land Surface Temperature (LST). LST surveys are utilized for the development of predicted climate models, urban covered land-atmosphere, supervising vegetation and monitoring Global Warming. It gives us the data ranging from spatial to temporal variation for the land. Along with LST; Land Surface Emissivity is also a vital factor in surveys related to earth surface characteristics. These values are required to utilize in the method applied to this survey. Extensive possibilities for surveying the surface through remote sensing is provided by the LANDSAT series. The analysis of this survey is based upon the images taken of Dubai and it is achieved by utilizing Thermal Infrared Sensor (TIS) and Operation Line Imager (OLI) satellite sensor records. Thermal band images obtained from LANDSAT 8 are processed in QGIS software by using band 10 data.",
+    citationCount: 1,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "2020 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+      pages: "1289-1292",
+    },
+    citationStyles: {
+      bibtex:
+        "@Conference{Sarath2020EffectOG,\n author = {R. Sarath and J. Varghese and R. Bhatkar},\n booktitle = {2020 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)},\n journal = {2020 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)},\n pages = {1289-1292},\n title = {Effect of Global Climate Change on Land Surface Temperature over Dubai, United Arab Emirates with the Aid of Landsat 8 Satellite Imagery},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "121757481",
+        name: "R. Sarath",
+      },
+      {
+        authorId: "46176552",
+        name: "J. Varghese",
+      },
+      {
+        authorId: "1752952990",
+        name: "R. Bhatkar",
+      },
+    ],
+  },
+  {
+    paperId: "7be00908374f3dbc5496d01129340126d7f9bf09",
+    url: "https://www.semanticscholar.org/paper/7be00908374f3dbc5496d01129340126d7f9bf09",
+    title: "The mark of vegetation change on Earth’s surface energy balance",
+    abstract: null,
+    citationCount: 333,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.nature.com/articles/s41467-017-02810-8.pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Nature Communications",
+      volume: "9",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Duveiller2018TheMO,\n author = {Gregory Duveiller and J. Hooker and A. Cescatti},\n booktitle = {Nature Communications},\n journal = {Nature Communications},\n title = {The mark of vegetation change on Earth’s surface energy balance},\n volume = {9},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "50223093",
+        name: "Gregory Duveiller",
+      },
+      {
+        authorId: "38882083",
+        name: "J. Hooker",
+      },
+      {
+        authorId: "3298473",
+        name: "A. Cescatti",
+      },
+    ],
+  },
+  {
+    paperId: "ff44dff70282f5c401047612fb9e12952790051f",
+    url: "https://www.semanticscholar.org/paper/ff44dff70282f5c401047612fb9e12952790051f",
+    title:
+      "Largest Rises of Swedish Treelines, Consistent with Climate Change Since the Early-20th Century",
+    abstract:
+      "Treeline advance during the past 100 years was assessed by repeat in situ measurement at 14 locations distributed along the entire Swedish Scandes, c. 800 km from south to north. Concerned species were mountain birch (Betula pubescens ssp. czerepanovii), Norway spruce (Picea abies), Scots pine (Pinus sylvestris) and rowan (Sorbus aucuparia). Treeline was narrowly defined as the highest elevation with trees, at least 2 m tall. In order to elucidate the full effect and power of climate change on the treeline area, focus is on sites with the most extensive treeline shifts, according to prior regional surveys. Thereby, local constraints (topoclimate) were minimized. Betula. Picea and Sorbus accomplished treeline rise predominantly by phenotypic height growth increment of old-established krummholz, while Pinus responded by establishment and growth of new specimens. The largest upshifts, irrespective of species, were in the order of 200 m (max. 245 m). In perspective of historical treeline shifts, the new and higher treelines are close to the position prevailing about 7000 years ago. In contrast to previous generalizations, no obvious differences existed between southern and northern Scandes. Based on a common temperature lapse rate of 0.6°C per 100 m altitude and recorded regional and centennial summer warming of 1.7°C, the observed rise appears as a fully expected response. This kind of performance indicates that, at optimal sites, treelines are in equilibrium with climate at a centennial scale, in cases of climate warming.",
+    citationCount: 2,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Challenging Issues on Environment and Earth Science Vol. 6",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Kullman2021LargestRO,\n author = {L. Kullman},\n booktitle = {Challenging Issues on Environment and Earth Science Vol. 6},\n journal = {Challenging Issues on Environment and Earth Science Vol. 6},\n title = {Largest Rises of Swedish Treelines, Consistent with Climate Change Since the Early-20th Century},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "49226674",
+        name: "L. Kullman",
+      },
+    ],
+  },
+  {
+    paperId: "c3e48167b70406456f2b36103fc8ccdfb9100120",
+    url: "https://www.semanticscholar.org/paper/c3e48167b70406456f2b36103fc8ccdfb9100120",
+    title:
+      "Iterative model predictions for wildlife populations impacted by rapid climate change",
+    abstract:
+      "To improve understanding and management of the consequences of current rapid environmental change, ecologists advocate using long‐term monitoring data series to generate iterative near‐term predictions of ecosystem responses. This approach allows scientific evidence to increase rapidly and management strategies to be tailored simultaneously. Iterative near‐term forecasting may therefore be particularly useful for adaptive monitoring of ecosystems subjected to rapid climate change. Here, we show how to implement near‐term forecasting in the case of a harvested population of rock ptarmigan in high‐arctic Svalbard, a region subjected to the largest and most rapid climate change on Earth. We fitted state‐space models to ptarmigan counts from point transect distance sampling during 2005–2019 and developed two types of predictions: (1) explanatory predictions to quantify the effect of potential drivers of ptarmigan population dynamics, and (2) anticipatory predictions to assess the ability of candidate models of increasing complexity to forecast next‐year population density. Based on the explanatory predictions, we found that a recent increasing trend in the Svalbard rock ptarmigan population can be attributed to major changes in winter climate. Currently, a strong positive effect of increasing average winter temperature on ptarmigan population growth outweighs the negative impacts of other manifestations of climate change such as rain‐on‐snow events. Moreover, the ptarmigan population may compensate for current harvest levels. Based on the anticipatory predictions, the near‐term forecasting ability of the models improved nonlinearly with the length of the time series, but yielded good forecasts even based on a short time series. The inclusion of ecological predictors improved forecasts of sharp changes in next‐year population density, demonstrating the value of ecosystem‐based monitoring. Overall, our study illustrates the power of integrating near‐term forecasting in monitoring systems to aid understanding and management of wildlife populations exposed to rapid climate change. We provide recommendations for how to improve this approach.",
+    citationCount: 10,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/gcb.15518",
+      status: "HYBRID",
+    },
+    journal: {
+      name: "Global Change Biology",
+      volume: "27",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Marolla2021IterativeMP,\n author = {F. Marolla and J. Henden and E. Fuglei and Å. Pedersen and M. Itkin and R. Ims},\n booktitle = {Global Change Biology},\n journal = {Global Change Biology},\n title = {Iterative model predictions for wildlife populations impacted by rapid climate change},\n volume = {27},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "82171925",
+        name: "F. Marolla",
+      },
+      {
+        authorId: "5249607",
+        name: "J. Henden",
+      },
+      {
+        authorId: "4781899",
+        name: "E. Fuglei",
+      },
+      {
+        authorId: "4114116",
+        name: "Å. Pedersen",
+      },
+      {
+        authorId: "103752271",
+        name: "M. Itkin",
+      },
+      {
+        authorId: "5767368",
+        name: "R. Ims",
+      },
+    ],
+  },
+  {
+    paperId: "f8cd9782e9e2c2ef59cf81dd2ea67dff6d878be1",
+    url: "https://www.semanticscholar.org/paper/f8cd9782e9e2c2ef59cf81dd2ea67dff6d878be1",
+    title:
+      "Global cotton production under climate change – Implications for yield and water consumption",
+    abstract:
+      "Abstract. Being an extensively produced natural fiber on earth, cotton is of importance for economies. Although the plant is broadly adapted to varying environments, the growth of and irrigation water demand on cotton may be challenged by future climate change.\nTo study the impacts of climate change on cotton productivity in different regions across the world and the irrigation water requirements related to it, we use the process-based, spatially detailed biosphere and hydrology model LPJmL (Lund–Potsdam–Jena managed land).\nWe find our modeled cotton yield levels in good agreement with reported values and simulated water consumption of cotton production similar to published estimates.\nFollowing the Inter-Sectoral Impact Model Intercomparison Project (ISIMIP) protocol, we employ an ensemble of five general circulation models under four representative concentration pathways (RCPs) for the 2011–2099 period to simulate future cotton yields.\nWe find that irrigated cotton production does not suffer from climate change if CO2 effects are considered, whereas rainfed production is more sensitive to varying climate conditions.\nConsidering the overall effect of a changing climate and CO2 fertilization, cotton production on current cropland steadily increases for most of the RCPs. Starting from ∼65 million tonnes in 2010, cotton production for RCP4.5 and RCP6.0 equates to 83 and 92 million tonnes at the end of the century, respectively. Under RCP8.5, simulated global cotton production rises by more than 50 % by 2099.\nTaking only climate change into account, projected cotton production considerably shrinks in most scenarios, by up to one-third or 43 million tonnes under RCP8.5.\nThe simulation of future virtual water content (VWC) of cotton grown under elevated CO2 results for all scenarios in less VWC compared to ambient CO2 conditions.\nUnder RCP6.0 and RCP8.5, VWC is notably decreased by more than 2000 m3 t−1 in areas where cotton is produced under purely rainfed conditions. By 2040, the average global VWC for cotton declines in all scenarios from currently 3300 to 3000 m3 t−1, and reduction continues by up to 30 % in 2100 under RCP8.5.\nWhile the VWC decreases by the CO2 effect, elevated temperature acts in the opposite direction. Ignoring beneficial CO2 effects, global VWC of cotton would increase for all RCPs except RCP2.6, reaching more than 5000 m3 t−1 by the end of the simulation period under RCP8.5.\nGiven the economic relevance of cotton production, climate change poses an additional stress and deserves special attention.\nChanges in VWC and water demands for cotton production are of special importance, as cotton production is known for its intense water consumption.\nThe implications of climate impacts on cotton production on the one hand and the impact of cotton production on water resources on the other hand illustrate the need to assess how future climate change may affect cotton production and its resource requirements. Our results should be regarded as optimistic, because of high uncertainty with respect to CO2 fertilization and the lack of implementing processes of boll abscission under heat stress.\nStill, the inclusion of cotton in LPJmL allows for various large-scale studies to assess impacts of climate change on hydrological factors and the implications for agricultural production and carbon sequestration.\n",
+    citationCount: 40,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://hess.copernicus.org/articles/25/2027/2021/hess-25-2027-2021.pdf",
+      status: "GREEN",
+    },
+    journal: {
+      name: "Hydrology and Earth System Sciences",
+      pages: "2027-2044",
+      volume: "25",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{None,\n booktitle = {Hydrology and Earth System Sciences},\n journal = {Hydrology and Earth System Sciences},\n pages = {2027-2044},\n title = {Global cotton production under climate change – Implications for yield and water consumption},\n volume = {25},\n year = {2020}\n}\n",
+    },
+    authors: [],
+  },
+  {
+    paperId: "c432330847f461cd30c4104755171737088ae0c5",
+    url: "https://www.semanticscholar.org/paper/c432330847f461cd30c4104755171737088ae0c5",
+    title:
+      "Challenges and Opportunities Facing Ecotourism in Sub-Saharan Africa from Climate Change Desertification",
+    abstract:
+      "This study explores one aspect of the macro-atmospheric phenomenon of amplified climate change that is causing significant micro manifestation challenges in one of the most fragile ecosystems on earth, sub-Saharan Africa.  The micro manifestation of desertification impacts humans, flora, and fauna all of whom already struggle to survive in these areas. Desertification in turn effects ecotourism. Desertification is a type of land degradation in which biological productivity is reduced and where fertile areas become arid. Desertification causes the loss of vegetation and food for livestock and humans and a decrease in drinking water reserves. Our examination researches the extents of desertification in the area and the effect it is having on ecotourism.  We explore the strategies for proper ecotourism management and planning that are being utilized to offset these effects and explore how these strategies can and are being utilized to offset these effects and even supply numerous economic resources for government, private sector, and local groups to help improve living conditions and quality of life. Ecotourism in these unique ecosystems that are impacted by climatic changes provide a meaningful opportunity to enhance the lives of host communities and protect the environment.  During a recent visit to Namibia, I found residents who are utilizing innovative strategies such as solar energy, rainwater collection and other innovations to protect the ecosystem, wildlife and environment and allow them to continue to continue to host ecotourists and provide services. Resources for ecotourism in deserts are made of the mutual effect of topography, climate, water, wildlife, plant type and density. Previous studies have shown that if ecotourism is properly managed and planned, it has the potential for numerous economic resources for the local community.  We examine the extent of desertification in these semi-arid deserts, the planning and management of ecotourism activities, and the role that education of these ecosystems could provide for additional economic resources and ecological protection.  ",
+    citationCount: 0,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://papers.academic-conferences.org/index.php/ictr/article/download/1988/1887",
+      status: "HYBRID",
+    },
+    journal: {
+      name: "International Conference on Tourism Research",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Mullikin2024ChallengesAO,\n author = {Thomas Mullikin},\n booktitle = {International Conference on Tourism Research},\n journal = {International Conference on Tourism Research},\n title = {Challenges and Opportunities Facing Ecotourism in Sub-Saharan Africa from Climate Change Desertification},\n year = {2024}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2291278007",
+        name: "Thomas Mullikin",
+      },
+    ],
+  },
+  {
+    paperId: "766d89dda65144688335f8b84151303da94cf691",
+    url: "https://www.semanticscholar.org/paper/766d89dda65144688335f8b84151303da94cf691",
+    title:
+      "Anthropogenic climate change has driven over 5 million km2 of drylands towards desertification",
+    abstract: null,
+    citationCount: 191,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.nature.com/articles/s41467-020-17710-7.pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Nature Communications",
+      volume: "11",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Burrell2020AnthropogenicCC,\n author = {A. L. Burrell and A. L. Burrell and Jonathan P. Evans and M. D. Kauwe},\n booktitle = {Nature Communications},\n journal = {Nature Communications},\n title = {Anthropogenic climate change has driven over 5 million km2 of drylands towards desertification},\n volume = {11},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2249520862",
+        name: "A. L. Burrell",
+      },
+      {
+        authorId: "2249520862",
+        name: "A. L. Burrell",
+      },
+      {
+        authorId: "2256979574",
+        name: "Jonathan P. Evans",
+      },
+      {
+        authorId: "3026321",
+        name: "M. D. Kauwe",
+      },
+    ],
+  },
+  {
+    paperId: "545107cd9477addf00ec4a9b16f03570fc21f0bf",
+    url: "https://www.semanticscholar.org/paper/545107cd9477addf00ec4a9b16f03570fc21f0bf",
+    title:
+      "Effect of climate change on vegetation phenology of different land-cover types on the Tibetan Plateau",
+    abstract:
+      "ABSTRACT Research in vegetation phenology change has been one heated topic of current ecological and climate change study. The Tibetan Plateau, as the highest plateau of the earth, is more vulnerable and sensitive to climate change than many other regions. In this region, shifts in vegetation phenology have been intensively studied during recent decades, primarily based on satellite-retrieved data. In this study, we explored the spatiotemporal changes of vegetation phenology for different land-cover types in the Tibetan Plateau and characterized their relationship with temperature and precipitation by using long-term time-series datasets of normalized difference vegetation index (NDVI) from 1982 to 2014. Diverse phenological changes were observed for different land-cover types, with an advancing start of growing season (SOS), delaying end of growing season (EOS) and increasing length of growing season (LOS) in the eastern Tibetan Plateau where meadow was the dominant vegetation type, but with the opposite changes in the steppe and sparse herbaceous or sparse shrub regions which are mostly located in the northwestern and western edges of the Tibetan Plateau. Correlation analysis indicated that sufficient preseason precipitation may delay the SOS of evergreen forests in the southeastern Plateau and advance the SOS of steppe and sparse herbaceous or sparse shrub in relatively arid areas, while the advance of SOS in meadow areas could be related to higher preseason temperature. For EOS, because it is less sensitive to climate change than SOS, the response of EOS for different land-cover types to precipitation and temperature were more complicated across the Tibetan Plateau.",
+    citationCount: 30,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "International Journal of Remote Sensing",
+      pages: "470 - 487",
+      volume: "39",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Cheng2018EffectOC,\n author = {Min Cheng and Jiaxin Jin and Jinmeng Zhang and Hong Jiang and Ruizheng Wang},\n journal = {International Journal of Remote Sensing},\n pages = {470 - 487},\n title = {Effect of climate change on vegetation phenology of different land-cover types on the Tibetan Plateau},\n volume = {39},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2072995175",
+        name: "Min Cheng",
+      },
+      {
+        authorId: "2884900",
+        name: "Jiaxin Jin",
+      },
+      {
+        authorId: "16076811",
+        name: "Jinmeng Zhang",
+      },
+      {
+        authorId: "144677827",
+        name: "Hong Jiang",
+      },
+      {
+        authorId: "2282976043",
+        name: "Ruizheng Wang",
+      },
+    ],
+  },
+  {
+    paperId: "0999f545682e55babd34ba0940f0e985e9e4e182",
+    url: "https://www.semanticscholar.org/paper/0999f545682e55babd34ba0940f0e985e9e4e182",
+    title:
+      "The colour of climate change: making the racial injustice of climate change visible",
+    abstract:
+      "ABSTRACT Drawing on a presentation given at the Geographical Association’s Annual Conference in April 2021 (Williams, 2021a), this article investigates the way that depictions of planet Earth are often simpliﬁed to green continents on blue oceans, accidentally universalising a white and western perspective of the Earth. The article demonstrates how this effect is evident in language too, where commentators or campaigns often use ‘we’ to create a sense of a common human experience. This universalising tendency reinforces existing Eurocentric geographies, obscuring the inequalities of climate change and the fact that some areas of the world are much more vulnerable to it than others. These inequalities fall along racial lines, with people of colour much more likely to be adversely affected by climate change, while majority white countries bear the greatest responsibility for historical emissions. To make the racial dimension of climate change visible, this article argues for a greater focus on the perspectives of people of colour in climate discourse.",
+    citationCount: 7,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Geography",
+      pages: "136 - 142",
+      volume: "106",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Williams2021TheCO,\n author = {Jeremy Williams},\n booktitle = {Geography},\n journal = {Geography},\n pages = {136 - 142},\n title = {The colour of climate change: making the racial injustice of climate change visible},\n volume = {106},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2109382032",
+        name: "Jeremy Williams",
+      },
+    ],
+  },
+  {
+    paperId: "ffab6bf94a3f1a1ded590714c025a3a1aeb9b8b1",
+    url: "https://www.semanticscholar.org/paper/ffab6bf94a3f1a1ded590714c025a3a1aeb9b8b1",
+    title:
+      "Introducing Argumentation About Climate Change Socioscientific Issues in a Disadvantaged School",
+    abstract: null,
+    citationCount: 68,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Research in Science Education",
+      pages: "863-883",
+      volume: "50",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Dawson2020IntroducingAA,\n author = {V. Dawson and Katherine Carson},\n journal = {Research in Science Education},\n pages = {863-883},\n title = {Introducing Argumentation About Climate Change Socioscientific Issues in a Disadvantaged School},\n volume = {50},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "40337357",
+        name: "V. Dawson",
+      },
+      {
+        authorId: "90731085",
+        name: "Katherine Carson",
+      },
+    ],
+  },
+  {
+    paperId: "fee562c463c639367f55935077c3a43e5ea70300",
+    url: "https://www.semanticscholar.org/paper/fee562c463c639367f55935077c3a43e5ea70300",
+    title:
+      "Resource Letter GECC-2: The Greenhouse Effect and Climate Change: The Intensified Greenhouse Effect",
+    abstract:
+      "Human activities over the past 200 years have increased Earth's greenhouse effect by about 1% relative to the radiative fluxes that drive the climate system. This Resource Letter introduces the physics of this intensified greenhouse effect and of the processes that govern resultant change in climate and provides resources for further study. Context for this examination is provided in a companion Resource Letter (GECC-1) that examined the radiative fluxes that comprise Earth's climate system and the present-day greenhouse effect. The increase in global temperature and other changes in climate resulting from the intensified greenhouse effect are of great societal concern. Developing prognostic capability to determine these responses to the small perturbations that constitute the intensified greenhouse effect to an accuracy that would be useful to inform policymaking is the major challenge facing climate scientists today.Human activities over the past 200 years have increased Earth's greenhouse effect by about 1% relative to the radiative fluxes that drive the climate system. This Resource Letter introduces the physics of this intensified greenhouse effect and of the processes that govern resultant change in climate and provides resources for further study. Context for this examination is provided in a companion Resource Letter (GECC-1) that examined the radiative fluxes that comprise Earth's climate system and the present-day greenhouse effect. The increase in global temperature and other changes in climate resulting from the intensified greenhouse effect are of great societal concern. Developing prognostic capability to determine these responses to the small perturbations that constitute the intensified greenhouse effect to an accuracy that would be useful to inform policymaking is the major challenge facing climate scien...",
+    citationCount: 14,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "http://pdfs.semanticscholar.org/fee5/62c463c639367f55935077c3a43e5ea70300.pdf",
+      status: "GREEN",
+    },
+    journal: {
+      name: "American Journal of Physics",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Schwartz2018ResourceLG,\n author = {S. Schwartz},\n booktitle = {American Journal of Physics},\n journal = {American Journal of Physics},\n title = {Resource Letter GECC-2: The Greenhouse Effect and Climate Change: The Intensified Greenhouse Effect},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "84334417",
+        name: "S. Schwartz",
+      },
+    ],
+  },
+  {
+    paperId: "31693c9b7960774808dc32ff6a825d264b2dd34f",
+    url: "https://www.semanticscholar.org/paper/31693c9b7960774808dc32ff6a825d264b2dd34f",
+    title:
+      "Forests and Climate Change: Forcings, Feedbacks, and the Climate Benefits of Forests",
+    abstract:
+      "The world's forests influence climate through physical, chemical, and biological processes that affect planetary energetics, the hydrologic cycle, and atmospheric composition. These complex and nonlinear forest-atmosphere interactions can dampen or amplify anthropogenic climate change. Tropical, temperate, and boreal reforestation and afforestation attenuate global warming through carbon sequestration. Biogeophysical feedbacks can enhance or diminish this negative climate forcing. Tropical forests mitigate warming through evaporative cooling, but the low albedo of boreal forests is a positive climate forcing. The evaporative effect of temperate forests is unclear. The net climate forcing from these and other processes is not known. Forests are under tremendous pressure from global change. Interdisciplinary science that integrates knowledge of the many interacting climate services of forests with the impacts of global change is necessary to identify and understand as yet unexplored feedbacks in the Earth system and the potential of forests to mitigate climate change.",
+    citationCount: 4767,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://zenodo.org/records/1230896/files/article.pdf",
+      status: "GREEN",
+    },
+    journal: {
+      name: "Science",
+      pages: "1444 - 1449",
+      volume: "320",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Bonan2008ForestsAC,\n author = {G. Bonan},\n booktitle = {Science},\n journal = {Science},\n pages = {1444 - 1449},\n title = {Forests and Climate Change: Forcings, Feedbacks, and the Climate Benefits of Forests},\n volume = {320},\n year = {2008}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "3311143",
+        name: "G. Bonan",
+      },
+    ],
+  },
+  {
+    paperId: "26e6d609a4c51aeacfb7ea374b3fc9b2543fff4b",
+    url: "https://www.semanticscholar.org/paper/26e6d609a4c51aeacfb7ea374b3fc9b2543fff4b",
+    title: "Non-Climatic Factors Causing Climate Change",
+    abstract:
+      "Climate change refers to fluctuations in the global climate of the earth or in regional climates over time. It describes changes in volatility or average weather conditions or average (normal) weather on time scales that fluctuate between decades and millions of years. These changes may be due to internal processes on Earth, or external forces (for example, fluctuations in the intensity of sunlight), or more recently to climate change-related activities. Especially in recent applications, in the field of environmental policy, the term \"climate change\" often refers only to current changes in the new climate. The issue of climate change and its potential effects on various economic and social sectors is one of the challenges of human technology. Recent studies show that emissions from greenhouse gases are a major cause of global warming. Greenhouse gases also play an important role in understanding the Earth's climatic history. According to these studies, the effect of greenhouse gases, which generate heat by trapping heat by greenhouse gases, plays a key role in regulating the earth's temperature. This article examines the non-climatic factors that cause climate change.",
+    citationCount: 16,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "",
+      pages: "292-308",
+      volume: "2",
+    },
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{Abdollahbeigi2020NonClimaticFC,\n author = {M. Abdollahbeigi},\n pages = {292-308},\n title = {Non-Climatic Factors Causing Climate Change},\n volume = {2},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "94003574",
+        name: "M. Abdollahbeigi",
+      },
+    ],
+  },
+  {
+    paperId: "0d13502f2873374bf15354668054e2de1d72de00",
+    url: "https://www.semanticscholar.org/paper/0d13502f2873374bf15354668054e2de1d72de00",
+    title: "Effect of Climate Change on Vegetable Production- A Review",
+    abstract:
+      "Climate variability is one of the most significant factors influencing year to year crop production, even in high-yield and hightechnology agricultural areas (Kang et al., 2009). Climate change, which includes increase in temperature, changes in rainfall pattern, sea level rise, salt-water intrusion, generation of floods and droughts is recognized as a global issue (Bates et al., 2008). At present due to anthropogenic activities like industrialization, deforestation and automobiles etc. changes in the climate are being taken place, which will again turn detrimental to life (Rakshit et al., 2009). The earth temperature has been increasing year after year and the main root cause of rising earth’s temperature is the climate change. The mean annual temperature of India is increased by 0.46 0 C over a period of last 111 years since 1901 (24.23 0 C) to 2012 (24.69 0 C) (Data Portal India, 2013).",
+    citationCount: 10,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "International Journal of Current Microbiology and Applied Sciences",
+      pages: "477-483",
+      volume: "6",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Devi2017EffectOC,\n author = {A. P. Devi and Moirangthem Sanju Singh and Shubhashree Das and J. Kabiraj},\n journal = {International Journal of Current Microbiology and Applied Sciences},\n pages = {477-483},\n title = {Effect of Climate Change on Vegetable Production- A Review},\n volume = {6},\n year = {2017}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "144495358",
+        name: "A. P. Devi",
+      },
+      {
+        authorId: "121194983",
+        name: "Moirangthem Sanju Singh",
+      },
+      {
+        authorId: "2157688228",
+        name: "Shubhashree Das",
+      },
+      {
+        authorId: "88970880",
+        name: "J. Kabiraj",
+      },
+    ],
+  },
+  {
+    paperId: "f132bb01ad0eb3d380089582832606956e9a01dc",
+    url: "https://www.semanticscholar.org/paper/f132bb01ad0eb3d380089582832606956e9a01dc",
+    title: "United Nations Framework Convention on Climate Change",
+    abstract:
+      "Acknowledging that change in the Earth’s climate and its adverse effects are a common concern of humankind, concerned that human activities have been substantially increasing the atmospheric concentrations of greenhouse gases, that these increases enhance the natural greenhouse effect, and that this will result on average in an additional warming of the Earth’s surface and atmosphere and may adversely affect natural ecosystems and humankind. Noting that the largest share of historical and current global emissions of greenhouse gases has originated in developed countries, that per capita emissions in developing countries are still relatively low and that the share of global emissions originating in developing countries will grow to meet their social and development needs. Aware of the role and importance in terrestrial and marine ecosystems of sinks and reservoirs of greenhouse gases. Noting that there are many uncertainties in predictions of climate change, particularly with regard to the timing, magnitude and regional patterns thereof. Acknowledging that the global nature of climate change calls for the widest possible cooperation by all countries and their participation in an effective and appropriate international response, in accordance with their common but differentiated responsibilities and respective capabilities and their social and economic conditions.",
+    citationCount: 83,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://link.springer.com/content/pdf/10.1007/978-1-349-58635-6_108.pdf",
+      status: "BRONZE",
+    },
+    journal: {
+      name: "The ‘Earth Summit’ Agreements: A Guide and Assessment",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Selkoe2019UnitedNF,\n author = {Dennis J. Selkoe},\n booktitle = {The ‘Earth Summit’ Agreements: A Guide and Assessment},\n journal = {The ‘Earth Summit’ Agreements: A Guide and Assessment},\n title = {United Nations Framework Convention on Climate Change},\n year = {2019}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2293819765",
+        name: "Dennis J. Selkoe",
+      },
+    ],
+  },
+  {
+    paperId: "d8827435826fbe46aa2a4770936d79aabc3595e3",
+    url: "https://www.semanticscholar.org/paper/d8827435826fbe46aa2a4770936d79aabc3595e3",
+    title:
+      "Modeling the potential impact of climate change on living beings near coastal areas",
+    abstract: null,
+    citationCount: 12,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Modeling Earth Systems and Environment",
+      pages: "1783 - 1796",
+      volume: "7",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Mandal2020ModelingTP,\n author = {S. Mandal and M. Islam and M. H. A. Biswas},\n booktitle = {Modeling Earth Systems and Environment},\n journal = {Modeling Earth Systems and Environment},\n pages = {1783 - 1796},\n title = {Modeling the potential impact of climate change on living beings near coastal areas},\n volume = {7},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "93279910",
+        name: "S. Mandal",
+      },
+      {
+        authorId: "35264380",
+        name: "M. Islam",
+      },
+      {
+        authorId: "32264779",
+        name: "M. H. A. Biswas",
+      },
+    ],
+  },
+  {
+    paperId: "d2aeef76a23a792bd913f12d1c02ca2168104b0c",
+    url: "https://www.semanticscholar.org/paper/d2aeef76a23a792bd913f12d1c02ca2168104b0c",
+    title:
+      "To what extent can interannual CO2 variability constrain carbon cycle sensitivity to climate change in CMIP5 Earth System Models?",
+    abstract:
+      "We analyze the carbon‐climate feedback in eight Earth System Models from phase 5 of the Coupled Model Intercomparison Project (CMIP5). We focus on tropical land carbon change and find decreases (−31.02 to −169.32 GtC K−1) indicating tropical ecosystems will release carbon as temperature warms, thus contributing to a positive feedback identified in earlier studies. We further investigate the relationship between tropical land carbon change and sensitivity of historical atmospheric CO2 growth rate to tropical temperature variability and find a weak linear relationship. This sensitivity for most models is stronger than observed. We further use this “emergent constraint” to constrain uncertainties in model‐projected future carbon‐climate changes and find little effect in narrowing the model spread, but the mean sensitivity is slightly smaller. This contrasts with earlier Coupled Carbon Cycle Climate Model Intercomparison Project results, highlighting the challenge in constraining future projections by modern observations and the necessity for evaluating such relationships continuously.",
+    citationCount: 17,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Geophysical Research Letters",
+      pages: "3535 - 3544",
+      volume: "41",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Wang2014ToWE,\n author = {Jun Wang and N. Zeng and Yimin Liu and Q. Bao},\n journal = {Geophysical Research Letters},\n pages = {3535 - 3544},\n title = {To what extent can interannual CO2 variability constrain carbon cycle sensitivity to climate change in CMIP5 Earth System Models?},\n volume = {41},\n year = {2014}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2157385323",
+        name: "Jun Wang",
+      },
+      {
+        authorId: "2149303",
+        name: "N. Zeng",
+      },
+      {
+        authorId: "2048437495",
+        name: "Yimin Liu",
+      },
+      {
+        authorId: "1736259",
+        name: "Q. Bao",
+      },
+    ],
+  },
+  {
+    paperId: "183c9ae91e0821ce17ac41a7f6591828b0038c32",
+    url: "https://www.semanticscholar.org/paper/183c9ae91e0821ce17ac41a7f6591828b0038c32",
+    title:
+      "Climate Change and the Impact of Greenhouse Gasses: CO2 and NO, Friends and Foes of Plant Oxidative Stress",
+    abstract:
+      "Here, we review information on how plants face redox imbalance caused by climate change, and focus on the role of nitric oxide (NO) in this response. Life on Earth is possible thanks to greenhouse effect. Without it, temperature on Earth’s surface would be around -19°C, instead of the current average of 14°C. Greenhouse effect is produced by greenhouse gasses (GHG) like water vapor, carbon dioxide (CO2), methane (CH4), nitrous oxides (NxO) and ozone (O3). GHG have natural and anthropogenic origin. However, increasing GHG provokes extreme climate changes such as floods, droughts and heat, which induce reactive oxygen species (ROS) and oxidative stress in plants. The main sources of ROS in stress conditions are: augmented photorespiration, NADPH oxidase (NOX) activity, β-oxidation of fatty acids and disorders in the electron transport chains of mitochondria and chloroplasts. Plants have developed an antioxidant machinery that includes the activity of ROS detoxifying enzymes [e.g., superoxide dismutase (SOD), ascorbate peroxidase (APX), catalase (CAT), glutathione peroxidase (GPX), and peroxiredoxin (PRX)], as well as antioxidant molecules such as ascorbic acid (ASC) and glutathione (GSH) that are present in almost all subcellular compartments. CO2 and NO help to maintain the redox equilibrium. Higher CO2 concentrations increase the photosynthesis through the CO2-unsaturated Rubisco activity. But Rubisco photorespiration and NOX activities could also augment ROS production. NO regulate the ROS concentration preserving balance among ROS, GSH, GSNO, and ASC. When ROS are in huge concentration, NO induces transcription and activity of SOD, APX, and CAT. However, when ROS are necessary (e.g., for pathogen resistance), NO may inhibit APX, CAT, and NOX activity by the S-nitrosylation of cysteine residues, favoring cell death. NO also regulates GSH concentration in several ways. NO may react with GSH to form GSNO, the NO cell reservoir and main source of S-nitrosylation. GSNO could be decomposed by the GSNO reductase (GSNOR) to GSSG which, in turn, is reduced to GSH by glutathione reductase (GR). GSNOR may be also inhibited by S-nitrosylation and GR activated by NO. In conclusion, NO plays a central role in the tolerance of plants to climate change.",
+    citationCount: 168,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.frontiersin.org/articles/10.3389/fpls.2018.00273/pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Frontiers in Plant Science",
+      volume: "9",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Cassia2018ClimateCA,\n author = {R. Cassia and Macarena Nocioni and Natalia Correa-Aragunde and L. Lamattina},\n booktitle = {Frontiers in Plant Science},\n journal = {Frontiers in Plant Science},\n title = {Climate Change and the Impact of Greenhouse Gasses: CO2 and NO, Friends and Foes of Plant Oxidative Stress},\n volume = {9},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "6399335",
+        name: "R. Cassia",
+      },
+      {
+        authorId: "36030437",
+        name: "Macarena Nocioni",
+      },
+      {
+        authorId: "1400039888",
+        name: "Natalia Correa-Aragunde",
+      },
+      {
+        authorId: "5987831",
+        name: "L. Lamattina",
+      },
+    ],
+  },
+  {
+    paperId: "7a902dd01586b0784dab35f252bf1bf3a7ab3789",
+    url: "https://www.semanticscholar.org/paper/7a902dd01586b0784dab35f252bf1bf3a7ab3789",
+    title:
+      "Recent advances in biodiversity and climate change studies in India",
+    abstract: null,
+    citationCount: 16,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://link.springer.com/content/pdf/10.1007/s10531-019-01781-0.pdf",
+      status: "BRONZE",
+    },
+    journal: {
+      name: "Biodiversity and Conservation",
+      pages: "1943-1951",
+      volume: "28",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Behera2019RecentAI,\n author = {M. D. Behera and S. Behera and Subrat Sharma},\n booktitle = {Biodiversity and Conservation},\n journal = {Biodiversity and Conservation},\n pages = {1943-1951},\n title = {Recent advances in biodiversity and climate change studies in India},\n volume = {28},\n year = {2019}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2134293",
+        name: "M. D. Behera",
+      },
+      {
+        authorId: "35231912",
+        name: "S. Behera",
+      },
+      {
+        authorId: "2109862765",
+        name: "Subrat Sharma",
+      },
+    ],
+  },
+  {
+    paperId: "0b7b70ab518f16f409f7b2fe9bf8e414e07273e6",
+    url: "https://www.semanticscholar.org/paper/0b7b70ab518f16f409f7b2fe9bf8e414e07273e6",
+    title: "Humid heat and climate change",
+    abstract:
+      "Extreme heat events cause significant societal impacts, prompting much concern and research about possible changes to their frequency and intensity as the climate warms. However, to date, extremes in air temperature have been emphasised at the expense of ‘heat-humidity’ indices, measures which incorporate the effect of atmospheric latent heat content on heat stress and provide a more complete picture of the thermal environment for human thermoregulation. This progress report restores balance by reviewing recent developments in the understanding of how heat-humidity indices have changed, and may continue to, as the climate warms further. The literature indicates that a concurrent rise in temperature and absolute humidity has already increased the frequency of potentially deadly conditions, and has reduced labour potential worldwide. More serious consequences may result if mitigation efforts are unsuccessful. The energetic basis of a heat-humidity perspective has permitted researchers to identify, for example, that by the end of the century, substantial parts of the Earth’s surface may be too hot and humid for human thermoregulation. Such consequences are avoided for less pessimistic scenarios of climate warming, but the societal impacts may still be very severe, as densely-populated low-latitude environments emerge as particularly at risk when a humid heat perspective is adopted. Counter to air temperature, changes in mean heat-humidity indices are actually amongst the largest worldwide at lower latitudes, where only small increases in the mean may be required to substantially enhance the frequency of dangerous conditions. The report concludes by outlining areas requiring improved process understanding, and it highlights the urgent role for societal adaptation if the worst impacts from rising humid heat are to be avoided.",
+    citationCount: 52,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://figshare.com/articles/journal_contribution/Humid_heat_and_climate_change/9482447/1/files/17107637.pdf",
+      status: "GREEN",
+    },
+    journal: {
+      name: "Progress in Physical Geography: Earth and Environment",
+      pages: "391 - 405",
+      volume: "42",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Matthews2018HumidHA,\n author = {T. Matthews},\n booktitle = {Progress in Physical Geography: Earth and Environment},\n journal = {Progress in Physical Geography: Earth and Environment},\n pages = {391 - 405},\n title = {Humid heat and climate change},\n volume = {42},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "48704558",
+        name: "T. Matthews",
+      },
+    ],
+  },
+  {
+    paperId: "db242c371d3c87b0e279306c8d3e089ecefb5221",
+    url: "https://www.semanticscholar.org/paper/db242c371d3c87b0e279306c8d3e089ecefb5221",
+    title:
+      "Contrasting Local versus Regional Effects of Land-Use-Change-Induced Heterogeneity on Historical Climate: Analysis with the GFDL Earth System Model",
+    abstract:
+      "AbstractThe effects of land-use and land-cover change (LULCC) on surface climate using two ensembles of numerical experiments with the Geophysical Fluid Dynamics Laboratory (GFDL) comprehensive Earth System Model ESM2Mb are investigated in this study. The experiments simulate historical climate with two different assumptions about LULCC: 1) no land-use change with potential vegetation (PV) and 2) with the CMIP5 historical reconstruction of LULCC (LU). Two different approaches were used in the analysis: 1) the authors compare differences in LU and PV climates to evaluate the regional and global effects of LULCC and 2) the authors characterize subgrid climate differences among different land-use tiles within each grid cell in the LU experiment. Using the first method, the authors estimate the magnitude of LULCC effect to be similar to some previous studies. Using the second method, the authors found a pronounced subgrid signal of LULCC in near-surface temperature over majority of areas affected by LULCC. Th...",
+    citationCount: 65,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "Journal of Climate",
+      pages: "5448-5469",
+      volume: "28",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Malyshev2015ContrastingLV,\n author = {S. Malyshev and E. Shevliakova and R. Stouffer and S. Pacala},\n journal = {Journal of Climate},\n pages = {5448-5469},\n title = {Contrasting Local versus Regional Effects of Land-Use-Change-Induced Heterogeneity on Historical Climate: Analysis with the GFDL Earth System Model},\n volume = {28},\n year = {2015}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "36875905",
+        name: "S. Malyshev",
+      },
+      {
+        authorId: "3773288",
+        name: "E. Shevliakova",
+      },
+      {
+        authorId: "3711975",
+        name: "R. Stouffer",
+      },
+      {
+        authorId: "4955260",
+        name: "S. Pacala",
+      },
+    ],
+  },
+  {
+    paperId: "a4d5b18d95251cf6d9d7d29980c90a2d1f2dd517",
+    url: "https://www.semanticscholar.org/paper/a4d5b18d95251cf6d9d7d29980c90a2d1f2dd517",
+    title:
+      "A Physical–Mathematical Approach to Climate Change Effects through Stochastic Resonance",
+    abstract:
+      "The aim of this work is to study the effects induced by climate changes in the framework of the stochastic resonance approach. First, a wavelet cross-correlation analysis on Earth temperature data concerning the last 5,500,000 years is performed; this analysis confirms a correlation between the planet’s temperature and the 100,000, 41,000, and 23,000-year periods of the Milankovitch orbital cycles. Then, the stochastic resonance model is invoked. Specific attention is given to the study of the impact of the registered global temperature increase within the stochastic model. Further, a numerical simulation has been performed, based on: (1) A double-well potential, (2) an external periodic modulation, corresponding to the orbit eccentricity cycle, and (3) an increased value of the global Earth temperature. The effect of temperature increase represents one of the novelties introduced in the present study and is determined by downshifting the interaction potential used within the stochastic resonance model. The numeric simulation results show that, for simulated increasing values of the global temperature, the double-well system triggers changes, while at higher temperatures (as in the case of the absence of a global temperature increase although with a different threshold) the system goes into a chaotic regime. The wavelet analysis allows characterization of the stochastic resonance condition through the evaluation of the signal-to-noise ratio. On the basis of the obtained findings, we hypothesize that the global temperature increase can suppress, on a large time scale corresponding to glacial cycles, the external periodic modulation effects and, hence, the glacial cycles.",
+    citationCount: 8,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://www.mdpi.com/2225-1154/7/2/21/pdf?version=1548569414",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Climate",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Caccamo2019APA,\n author = {M. T. Caccamo and S. Magazù},\n booktitle = {Climate},\n journal = {Climate},\n title = {A Physical–Mathematical Approach to Climate Change Effects through Stochastic Resonance},\n year = {2019}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "31804454",
+        name: "M. T. Caccamo",
+      },
+      {
+        authorId: "4394794",
+        name: "S. Magazù",
+      },
+    ],
+  },
+  {
+    paperId: "dce8f00634bc729b98c483b7a42d13a7c330bd6e",
+    url: "https://www.semanticscholar.org/paper/dce8f00634bc729b98c483b7a42d13a7c330bd6e",
+    title: "Forests , Carbon and Climate Change : the UK Contribution",
+    abstract:
+      "A discussion of UK forests and carbon-related issues must start with an overview of global climate change and greenhouse gas (GHG) emissions. Carbon dioxide (CO2) is one of the so-called ‘greenhouse gases’ which are responsible for absorbing energy from the sun, leading to warming of the earth’s atmosphere – the ‘greenhouse effect’. Many GHGs occur naturally in the atmosphere and their presence is important for ensuring that the global climate is warm enough to support life. In the absence of GHGs, the planet would be 30oC cooler and most life in its present form would not exist. However, there is consensus among scientists that the world’s climate is changing because the concentrations of GHGs in the atmosphere are rising. Carbon dioxide is the most important contributor to this enhanced greenhouse effect. During the 1990s, the atmospheric concentration of CO2 increased by about 1.5 parts per million (ppm) per year, continuing an upward trend which has seen a preindustrial concentration of ~_ 280 ppm rise to the current value of ~_ 370 ppm. Underlying this overall increase is a complex pattern of exchanges of carbon between the atmosphere, the oceans, terrestrial vegetation (including forests) and fossil fuel reserves, summarised in Figure 2 as a simplified global carbon budget.",
+    citationCount: 23,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: null,
+    citationStyles: {
+      bibtex:
+        "@Inproceedings{None,\n title = {Forests , Carbon and Climate Change : the UK Contribution},\n year = {2018}\n}\n",
+    },
+    authors: [],
+  },
+  {
+    paperId: "6d52a0793e5b41b8ffc977347cc15550b6529a2c",
+    url: "https://www.semanticscholar.org/paper/6d52a0793e5b41b8ffc977347cc15550b6529a2c",
+    title: "Atmospheric opacity has a nonlinear effect on global crop yields",
+    abstract: null,
+    citationCount: 15,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Nature Food",
+      pages: "166 - 173",
+      volume: "2",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Proctor2021AtmosphericOH,\n author = {J. Proctor},\n booktitle = {Nature Food},\n journal = {Nature Food},\n pages = {166 - 173},\n title = {Atmospheric opacity has a nonlinear effect on global crop yields},\n volume = {2},\n year = {2021}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "39694131",
+        name: "J. Proctor",
+      },
+    ],
+  },
+  {
+    paperId: "bc6ac4c9a7edd3e9ffd8cf1ebd1e78d99c781f71",
+    url: "https://www.semanticscholar.org/paper/bc6ac4c9a7edd3e9ffd8cf1ebd1e78d99c781f71",
+    title:
+      "Observed rainfall changes in the past century (1901–2019) over the wettest place on Earth",
+    abstract:
+      "Changes in rainfall affect drinking water, river and surface runoff, soil moisture, groundwater reserve, electricity generation, agriculture production and ultimately the economy of a country. Trends in rainfall, therefore, are important for examining the impact of climate change on water resources for its planning and management. Here, as analysed from 119 years of rainfall measurements at 16 different rain gauge stations across northeast India, a significant change in the rainfall pattern is evident after the year 1973, with a decreasing trend in rainfall of about 0.42 ± 0.024 mm dec−1. The wettest place of the world has shifted from Cherrapunji (CHE) to Mawsynram (MAW) (separated by 15 km) in recent decades, consistent with long-term rainfall changes in the region. The annual mean accumulated rainfall was about 12 550 mm at MAW and 11 963 mm at CHE for the period 1989–2010, as deduced from the available measurements at MAW. The changes in the Indian Ocean temperature have a profound effect on the rainfall in the region, and the contribution from the Arabian Sea temperature and moisture is remarkable in this respect, as analysed with a multivariate regression procedure for the period 1973–2019. The changes in land cover are another important aspect of this shift in rainfall pattern, as we find a noticeable reduction in vegetation area in northeast India in the past two decades, implying the human influence on recent climate change.",
+    citationCount: 62,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "Environmental Research Letters",
+      volume: "16",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Kuttippurath2020ObservedRC,\n author = {J. Kuttippurath and S. Murasingh and P. Stott and B. Sarojini and M. Jha and Pankaj Kumar and P. J. Nair and H. Varikoden and S. Raj and P. A. Francis and P. C. Pandey},\n journal = {Environmental Research Letters},\n title = {Observed rainfall changes in the past century (1901–2019) over the wettest place on Earth},\n volume = {16},\n year = {2020}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "48478315",
+        name: "J. Kuttippurath",
+      },
+      {
+        authorId: "108125690",
+        name: "S. Murasingh",
+      },
+      {
+        authorId: "1843694",
+        name: "P. Stott",
+      },
+      {
+        authorId: "77338960",
+        name: "B. Sarojini",
+      },
+      {
+        authorId: "47348384",
+        name: "M. Jha",
+      },
+      {
+        authorId: "2115577494",
+        name: "Pankaj Kumar",
+      },
+      {
+        authorId: "152164443",
+        name: "P. J. Nair",
+      },
+      {
+        authorId: "2063943",
+        name: "H. Varikoden",
+      },
+      {
+        authorId: "1490960879",
+        name: "S. Raj",
+      },
+      {
+        authorId: "1481045917",
+        name: "P. A. Francis",
+      },
+      {
+        authorId: "50162116",
+        name: "P. C. Pandey",
+      },
+    ],
+  },
+  {
+    paperId: "b67809c48ce97b997c028a6a0955bf2aea2790dc",
+    url: "https://www.semanticscholar.org/paper/b67809c48ce97b997c028a6a0955bf2aea2790dc",
+    title:
+      "Indices of extremes: geographic patterns of change in extremes and associated vegetation impacts under climate intervention",
+    abstract:
+      "Abstract. Extreme weather events have been demonstrated to be increasing in frequency\nand intensity across the globe and are anticipated to increase further with\nprojected changes in climate. Solar climate intervention strategies,\nspecifically stratospheric aerosol injection (SAI), have the potential to\nminimize some of the impacts of a changing climate while more robust\nreductions in greenhouse gas emissions take effect. However, to date little\nattention has been paid to the possible responses of extreme weather and\nclimate events under climate intervention scenarios. We present an analysis\nof 16 extreme surface temperature and precipitation indices, as well as associated\nvegetation responses, applied to the Geoengineering Large Ensemble (GLENS).\nGLENS is an ensemble of simulations performed with the Community Earth\nSystem Model (CESM1) wherein SAI is simulated to offset the warming produced\nby a high-emission scenario throughout the 21st century, maintaining surface\ntemperatures at 2020 levels. GLENS is generally successful at maintaining global mean temperature near\n2020 levels; however, it does not completely offset some of the projected\nwarming in northern latitudes. Some regions are also projected to cool\nsubstantially in comparison to the present day, with the greatest decreases\nin daytime temperatures. The differential warming–cooling also translates to\nfewer very hot days but more very hot nights during the summer and fewer\nvery cold days or nights compared to the current day. Extreme precipitation\npatterns, for the most part, are projected to reduce in intensity in areas\nthat are wet in the current climate and increase in intensity in dry areas.\nWe also find that the distribution of daily precipitation becomes more\nconsistent with more days with light rain and fewer very intense events\nthan currently occur. In many regions there is a reduction in the\npersistence of long dry and wet spells compared to present day. However,\nasymmetry in the night and day temperatures, together with changes in cloud\ncover and vegetative responses, could exacerbate drying in regions that are\nalready sensitive to drought. Overall, our results suggest that while SAI\nmay ameliorate some of the extreme weather hazards produced by global\nwarming, it would also present some significant differences in the\ndistribution of climate extremes compared to the present day.\n",
+    citationCount: 13,
+    isOpenAccess: true,
+    openAccessPdf: {
+      url: "https://esd.copernicus.org/articles/13/1233/2022/esd-13-1233-2022.pdf",
+      status: "GOLD",
+    },
+    journal: {
+      name: "Earth System Dynamics",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Tye2022IndicesOE,\n author = {M. Tye and K. Dagon and M. Molina and J. Richter and D. Visioni and B. Kravitz and S. Tilmes},\n booktitle = {Earth System Dynamics},\n journal = {Earth System Dynamics},\n title = {Indices of extremes: geographic patterns of change in extremes and associated vegetation impacts under climate intervention},\n year = {2022}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "40991549",
+        name: "M. Tye",
+      },
+      {
+        authorId: "102325220",
+        name: "K. Dagon",
+      },
+      {
+        authorId: "50058179",
+        name: "M. Molina",
+      },
+      {
+        authorId: "31051798",
+        name: "J. Richter",
+      },
+      {
+        authorId: "1379862405",
+        name: "D. Visioni",
+      },
+      {
+        authorId: "2139651144",
+        name: "B. Kravitz",
+      },
+      {
+        authorId: "6868037",
+        name: "S. Tilmes",
+      },
+    ],
+  },
+  {
+    paperId: "9c50603694050d8004a7f027fdbbca4a7de3b52e",
+    url: "https://www.semanticscholar.org/paper/9c50603694050d8004a7f027fdbbca4a7de3b52e",
+    title:
+      "Potential roles of CO2 fertilization, nitrogen deposition, climate change, and land use and land cover change on the global terrestrial carbon uptake in the twenty-first century",
+    abstract: null,
+    citationCount: 29,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Climate Dynamics",
+      pages: "4393-4406",
+      volume: "52",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Tharammal2018PotentialRO,\n author = {Thejna Tharammal and G. Bala and D. Narayanappa and R. Nemani},\n booktitle = {Climate Dynamics},\n journal = {Climate Dynamics},\n pages = {4393-4406},\n title = {Potential roles of CO2 fertilization, nitrogen deposition, climate change, and land use and land cover change on the global terrestrial carbon uptake in the twenty-first century},\n volume = {52},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "93636545",
+        name: "Thejna Tharammal",
+      },
+      {
+        authorId: "3855766",
+        name: "G. Bala",
+      },
+      {
+        authorId: "104574205",
+        name: "D. Narayanappa",
+      },
+      {
+        authorId: "48834077",
+        name: "R. Nemani",
+      },
+    ],
+  },
+  {
+    paperId: "791c228e4bd4dd7cf4987847a4834e90e43ada9f",
+    url: "https://www.semanticscholar.org/paper/791c228e4bd4dd7cf4987847a4834e90e43ada9f",
+    title: "The Climate Change and Air Pollution",
+    abstract:
+      "Environmental pollution states the toxification by different forms of pollutants in the surroundings. This causes the natural system imbalance and affects the life on earth in different ways. The emissions of pollutants into air result in climate changes. The rising levels of CO2 and other air-polluting gases increase the greenhouse effect which results in temperature elevations and affects global weather patterns. Bill Gates also warned “Climate change is a terrible problem, and it absolutely needs to be solved; it deserves to be a huge priority”. Though climate change and air pollution are closely linked, these are treated as separate problems. Hence, it is aimed to understand the aspects of association between climate change and air pollution in this chapter with the objectives: (i) To know the basics of climate change and air pollution, (ii) To review the active background studies on climate change as well as on air pollution, (iii) To identify the issues, controversies, problems which include the effects of global warming and greenhouse gases followed by the types of air pollutants and its harmful effects, (iv) To find the solutions and recommendations, the discussions are made on climate laws and policies, (v) To retrieve, analyze and store the climate change related information, the description about models, tools and databases are given, (vi) To have a flawless insights on the association of climate change and air pollution, (vii) To exemplify species indicators for the assessment of the effect of air pollution on climate change are also included. As Bernie Sanders said “Climate change is a planetary crisis. We've got to act, and we have to act boldly”.",
+    citationCount: 0,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Global Perspectives on Air Pollution Prevention and Control System Design",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Maheshwari2019TheCC,\n author = {A. Maheshwari},\n booktitle = {Global Perspectives on Air Pollution Prevention and Control System Design},\n journal = {Global Perspectives on Air Pollution Prevention and Control System Design},\n title = {The Climate Change and Air Pollution},\n year = {2019}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "2054471235",
+        name: "A. Maheshwari",
+      },
+    ],
+  },
+  {
+    paperId: "4baad0b620cb52689038e789d70eb8a21d91de62",
+    url: "https://www.semanticscholar.org/paper/4baad0b620cb52689038e789d70eb8a21d91de62",
+    title:
+      "Climate change and the latitudinal selectivity of ancient marine extinctions",
+    abstract:
+      "Abstract. Geologically rapid climate change is anticipated to increase extinction risk nonuniformly across the Earth's surface. Tropical species may be more vulnerable than temperate species to current climate warming because of high tropical climate velocities and reduced seawater oxygen levels. To test whether rapid warming indeed preferentially increased the extinction risk of tropical fossil taxa, we combine a robust statistical assessment of latitudinal extinction selectivity (LES) with the dominant views on climate change occurring at ancient extinction crises. Using a global data set of marine fossil occurrences, we assess extinction rates for tropical and temperate genera, applying log ratios to assess effect size and Akaike weights for model support. Among the classical “big five” mass extinction episodes, the end-Permian mass extinction exhibits temperate preference of extinctions, whereas the Late Devonian and end-Triassic selectively hit tropical genera. Simple links between the inferred direction of climate change and LES are idiosyncratic, both during crisis and background intervals. More complex models, including sampling patterns and changes in the latitudinal distribution of continental shelf area, show tropical LES to be generally associated with raised tropical heat and temperate LES with global cold temperatures. With implications for the future, our paper demonstrates the consistency of high tropical temperatures, habitat loss, and the capacity of both to interact in generating geographic patterns in extinctions.",
+    citationCount: 28,
+    isOpenAccess: false,
+    openAccessPdf: null,
+    journal: {
+      name: "Paleobiology",
+      pages: "70 - 84",
+      volume: "45",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{Reddin2018ClimateCA,\n author = {Carl J. Reddin and Á. Kocsis and W. Kiessling},\n booktitle = {Paleobiology},\n journal = {Paleobiology},\n pages = {70 - 84},\n title = {Climate change and the latitudinal selectivity of ancient marine extinctions},\n volume = {45},\n year = {2018}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "47811358",
+        name: "Carl J. Reddin",
+      },
+      {
+        authorId: "13060207",
+        name: "Á. Kocsis",
+      },
+      {
+        authorId: "46296619",
+        name: "W. Kiessling",
+      },
+    ],
+  },
+  {
+    paperId: "5ca3754a9cc7b1690a58896cf3edec2728f2ced4",
+    url: "https://www.semanticscholar.org/paper/5ca3754a9cc7b1690a58896cf3edec2728f2ced4",
+    title:
+      "Climate change, allergy and asthma, and the role of tropical forests",
+    abstract: null,
+    citationCount: 31,
+    isOpenAccess: true,
+    openAccessPdf: null,
+    journal: {
+      name: "The World Allergy Organization Journal",
+      volume: "10",
+    },
+    citationStyles: {
+      bibtex:
+        "@Article{D'Amato2017ClimateCA,\n author = {G. D'Amato and C. Vitale and N. Rosário and H. C. Neto and D. C. Chong-Silva and F. Mendonça and J. Perini and L. Landgraf and D. Solé and M. Sánchez-Borges and I. Ansotegui and M. D’Amato},\n booktitle = {The World Allergy Organization Journal},\n journal = {The World Allergy Organization Journal},\n title = {Climate change, allergy and asthma, and the role of tropical forests},\n volume = {10},\n year = {2017}\n}\n",
+    },
+    authors: [
+      {
+        authorId: "1397394099",
+        name: "G. D'Amato",
+      },
+      {
+        authorId: "47446757",
+        name: "C. Vitale",
+      },
+      {
+        authorId: "3571388",
+        name: "N. Rosário",
+      },
+      {
+        authorId: "7622999",
+        name: "H. C. Neto",
+      },
+      {
+        authorId: "1753357523",
+        name: "D. C. Chong-Silva",
+      },
+      {
+        authorId: "47314764",
+        name: "F. Mendonça",
+      },
+      {
+        authorId: "2093897970",
+        name: "J. Perini",
+      },
+      {
+        authorId: "2102706803",
+        name: "L. Landgraf",
+      },
+      {
+        authorId: "145728737",
+        name: "D. Solé",
+      },
+      {
+        authorId: "1390049156",
+        name: "M. Sánchez-Borges",
+      },
+      {
+        authorId: "5145648",
+        name: "I. Ansotegui",
+      },
+      {
+        authorId: "1394068239",
+        name: "M. D’Amato",
+      },
+    ],
+  },
+  {
     paperId: "d59dc8b14dd870e545ac3de2a94180841b33e7e3",
     url: "https://www.semanticscholar.org/paper/d59dc8b14dd870e545ac3de2a94180841b33e7e3",
     title: "The new england journal of medicine",

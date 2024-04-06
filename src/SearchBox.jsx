@@ -15,6 +15,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import { useDebounce } from "./hooks/useDebounce";
 import { data } from "./data";
+import { RssFeed } from "@mui/icons-material";
 
 const SearchBox = () => {
   const navigate = useNavigate();
@@ -24,33 +25,75 @@ const SearchBox = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
-  useEffect(() => {
-    // if (debouncedSearch !== "")
-    // axios
-    //   .post("https://api.gyanibooks.com/search_publication/", {
-    //     keyword: debouncedSearch,
-    //     limit: 5,
-    //   })
-    //   .then((res) => {
-    //     console.log("App -> useEffect ", res.data);
-    //     const resSuggestions = res.data?.map((obj) => obj.title);
-    //     setSuggestions([...resSuggestions]);
-    //   })
-    //   .catch((err) => {
-    //     console.error(err);
-    //   });
+  // useEffect(() => {
+  //   // if (debouncedSearch !== "")
+  //   // axios
+  //   //   .post("https://api.gyanibooks.com/search_publication/", {
+  //   //     keyword: debouncedSearch,
+  //   //     limit: 5,
+  //   //   })
+  //   //   .then((res) => {
+  //   //     console.log("App -> useEffect ", res.data);
+  //   //     const resSuggestions = res.data?.map((obj) => obj.title);
+  //   //     setSuggestions([...resSuggestions]);
+  //   //   })
+  //   //   .catch((err) => {
+  //   //     console.error(err);
+  //   //   });
 
-    if (search === "") {
+  //   if (search === "") {
+  //     setSuggestions([]);
+  //   } else {
+  //     const resSuggestions = data.filter((article) =>
+  //       article.title.includes(debouncedSearch)
+  //     );
+  //     resSuggestions.splice(5);
+  //     setSuggestions(resSuggestions);
+  //     setShowSuggestions(true);
+  //   }
+  // }, [search, debouncedSearch]);
+
+  useEffect(() => {
+    const getSuggestions = async () => {
+      if (debouncedSearch !== "")
+        axios
+          .post("https://api.gyanibooks.com/search_publication/", {
+            keyword: debouncedSearch,
+            limit: 5,
+          })
+          .then((res) => {
+            console.log("App -> useEffect ", res.data);
+
+            // api error is returned in response object
+            if (res.data.hasOwnProperty("error")) {
+              const resSuggestions = data.filter((article) =>
+                article.title.includes(debouncedSearch)
+              );
+              setSuggestions(resSuggestions);
+            } else {
+              setSuggestions(res.data.data);
+            }
+          })
+          .catch((err) => {
+            console.error(err);
+          });
+    };
+
+    if (debouncedSearch === "") {
       setSuggestions([]);
     } else {
-      const resSuggestions = data.filter((article) =>
-        article.title.includes(debouncedSearch)
-      );
-      resSuggestions.splice(5);
-      setSuggestions(resSuggestions);
+      // const resSuggestions = data.filter((article) =>
+      //   article.title.includes(debouncedSearch)
+      // );
+      // resSuggestions.splice(5);
+      // setSuggestions(resSuggestions);
+
+      getSuggestions(debouncedSearch);
       setShowSuggestions(true);
+      // console.log("dsearch", debouncedSearch, "result", resSuggestions);
     }
-  }, [search, debouncedSearch]);
+    // resSuggestions.splice(10);
+  }, [data, debouncedSearch]);
 
   const handleSwitchChange = () => {
     setIsAcademic((prev) => !prev);
@@ -60,25 +103,28 @@ const SearchBox = () => {
     if (search !== "") {
       console.log(`${isAcademic ? "Academic" : "Web"}` + " Search", search);
 
-      // axios
-      //   .post("https://api.gyanibooks.com/search_publication/", {
-      //     keyword: search,
-      //     limit: 10,
-      //   })
-      //   .then((res) => {
-      //     console.log("App -> useEffect ", res.data);
-      //     const resSuggestions = res.data?.map((obj) => obj.title);
-      //     setSuggestions([...resSuggestions]);
-      //   })
-      //   .catch((err) => {
-      //     console.error(err);
-      //   });
+      axios
+        .post("https://api.gyanibooks.com/search_publication/", {
+          keyword: search,
+          limit: 10,
+        })
+        .then((res) => {
+          console.log("App -> useEffect ", res.data);
 
-      console.log("App -> useEffect ", res.data);
-      const resSuggestions = data.filter((article) =>
-        article.title.includes(debouncedSearch)
-      );
-      setSuggestions([...resSuggestions]);
+          if (!res.data.hasOwnProperty("error")) {
+            const resSuggestions = res.data?.map((obj) => obj.title);
+            setSuggestions([...resSuggestions]);
+          }
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+
+      // console.log("App -> useEffect ", res.data);
+      // const resSuggestions = data.filter((article) =>
+      //   article.title.includes(debouncedSearch)
+      // );
+      // setSuggestions([...resSuggestions]);
 
       navigate("/results", { state: { search: search, isAcademic } });
     }
@@ -90,8 +136,8 @@ const SearchBox = () => {
 
   const handleSuggestionClick = (suggestion) => {
     console.log("hsc");
-    // <Navigate to={"/results"} state={suggestion} />;
-    navigate("/results", { state: { search: suggestion, isAcademic } });
+    handleSearch(suggestion);
+    // navigate("/results", { state: { search: suggestion, isAcademic } });
   };
 
   return (

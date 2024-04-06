@@ -87,7 +87,9 @@ const ResultCard = ({ result, isAcademic }) => {
             .join(" • ")}
         </Typography>
         <Typography variant="body2">
-          {"..., " + abstract.split(" ").slice(10, 30).join(" ") + " ..."}
+          {abstract
+            ? "..., " + abstract.split(" ").slice(10, 30).join(" ") + " ..."
+            : "We present in this work a new calculation of the standard-model benchmark value for the effective number of neutrinos,..."}
         </Typography>
         {isAcademic ? <AcademicFooter /> : <NonAcademicFooter />}
       </CardContent>
