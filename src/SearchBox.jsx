@@ -101,7 +101,7 @@ const SearchBox = () => {
 
   const handleSearch = (searchParam) => {
     if (search !== "") {
-      console.log(`${isAcademic ? "Academic" : "Web"}` + " Search", search);
+      // console.log(`${isAcademic ? "Academic" : "Web"}` + " Search", search);
 
       axios
         .post("https://api.gyanibooks.com/search_publication/", {
@@ -112,7 +112,7 @@ const SearchBox = () => {
           console.log("App -> useEffect ", res.data);
 
           if (!res.data.hasOwnProperty("error")) {
-            const resSuggestions = res.data?.map((obj) => obj.title);
+            const resSuggestions = res.data.data.map((obj) => obj.title);
             setSuggestions([...resSuggestions]);
           }
         })
@@ -210,8 +210,8 @@ const SearchBox = () => {
             >
               <ListItemText
                 primary={
-                  article.title.length > 20
-                    ? article.title.substring(0, 20) + "..."
+                  article.title.length > 30
+                    ? article.title.substring(0, 30) + "..."
                     : article.title
                 }
               />
