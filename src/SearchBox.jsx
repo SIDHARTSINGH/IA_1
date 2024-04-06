@@ -112,7 +112,7 @@ const SearchBox = () => {
           console.log("App -> useEffect ", res.data);
 
           if (!res.data.hasOwnProperty("error")) {
-            const resSuggestions = res.data.data.map((obj) => obj.title);
+            const resSuggestions = res.data?.map((obj) => obj.title);
             setSuggestions([...resSuggestions]);
           }
         })

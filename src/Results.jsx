@@ -43,6 +43,9 @@ const Results = () => {
   return (
     <Stack spacing={3}>
       <SearchBox />
+      <Typography variant="h5">
+        {isAcademic ? "Academic Results" : "Web Results"}
+      </Typography>
       {resultList &&
         resultList.map((result) => (
           <ResultCard key={result.paperId} result={result} isAcademic />
